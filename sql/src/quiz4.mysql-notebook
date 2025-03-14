@@ -1,0 +1,1020 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "DB Notebook",
+    "content": "\\about\nSELECT ranking, cafe, price\nFROM sandwitch\nWHERE (cafe LIKE '%Kitchen%' OR cafe LIKE '%Cafe%')\nORDER BY price ASC;\nSELECT ranking, menu, price\nFROM sandwitch\nWHERE (menu LIKE '%Salad%' OR menu LIKE '%Cheese%' OR menu LIKE '%Beef%')\nORDER BY price ASC LIMIT 5;\nCREATE TABLE movie\n(\n    date DATE,\n    name VARCHAR(64),\n    point FLOAT\n);\nDESC movie;\nSELECT *\nFROM movie\nWHERE (date BETWEEN '2018-01-01' AND '2018-12-31')\nand (point BETWEEN 5.0 AND 6.0)\nORDER BY point DESC LIMIT 30; \nCREATE TABLE gas_station\n(\n    `코드` CHAR(8),\n    `명칭` VARCHAR(16),\n    `주소` VARCHAR(128),\n    `전화번호` VARCHAR(16),\n    `영업시간` VARCHAR(16),\n    `재고량` INT\n);\nDESC gas_station;\nSELECT * FROM gas_station\nWHERE (명칭 LIKE '%부산방향%' OR 명칭 LIKE '%서울방향%')\nAND 주소 LIKE '%고속도로%'\nORDER BY 재고량 DESC;\n",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": {
+        "cursorState": [
+            {
+                "inSelectionMode": false,
+                "selectionStart": {
+                    "lineNumber": 17,
+                    "column": 8
+                },
+                "position": {
+                    "lineNumber": 17,
+                    "column": 8
+                }
+            }
+        ],
+        "viewState": {
+            "scrollLeft": 0,
+            "firstPosition": {
+                "lineNumber": 1,
+                "column": 1
+            },
+            "firstPositionDeltaTop": 0
+        },
+        "contributionsState": {
+            "editor.contrib.folding": {},
+            "editor.contrib.wordHighlighter": false
+        }
+    },
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 1,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "content": "Welcome to the MySQL Shell - DB Notebook.\n\nPress Ctrl+Enter to execute the code block.\n\nExecute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\nExecute \\help or \\? for help;",
+                            "language": "ansi"
+                        }
+                    ]
+                },
+                "currentHeight": 122,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 6
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 2,
+                "end": 5,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "1d5d3811-6fd2-4b84-e446-01538eaa84a7"
+                    ]
+                },
+                "currentHeight": 267,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 114
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "1d5d3811-6fd2-4b84-e446-01538eaa84a7",
+                    "rows": [
+                        {
+                            "0": 45,
+                            "1": "Cafecito",
+                            "2": 5.49
+                        },
+                        {
+                            "0": 22,
+                            "1": "Dawali Mediterranean Kitchen",
+                            "2": 6
+                        },
+                        {
+                            "0": 41,
+                            "1": "Z&H MarketCafe",
+                            "2": 7.25
+                        },
+                        {
+                            "0": 35,
+                            "1": "Floriole Cafe & Bakery",
+                            "2": 9
+                        },
+                        {
+                            "0": 36,
+                            "1": "First Slice Pie Café",
+                            "2": 9
+                        },
+                        {
+                            "0": 8,
+                            "1": "Birchwood Kitchen",
+                            "2": 10
+                        },
+                        {
+                            "0": 14,
+                            "1": "Crosby’s Kitchen",
+                            "2": 10
+                        },
+                        {
+                            "0": 11,
+                            "1": "Lula Cafe",
+                            "2": 11
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "ranking",
+                            "field": "0",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "cafe",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "price",
+                            "field": "2",
+                            "dataType": {
+                                "type": 7,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 53,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FLOAT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 8 records retrieved in 5.613ms"
+                    },
+                    "totalRowCount": 8,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT ranking, cafe, price\nFROM sandwitch\nWHERE (cafe LIKE '%Kitchen%' OR cafe LIKE '%Cafe%')\nORDER BY price ASC",
+                    "updatable": false,
+                    "fullTableName": "sandwitch"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 6,
+                "end": 9,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "e5bcc648-cb9d-4768-9404-1fb488919db2"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 144
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "e5bcc648-cb9d-4768-9404-1fb488919db2",
+                    "rows": [
+                        {
+                            "0": 47,
+                            "1": "Debbie’s Egg Salad",
+                            "2": 6.5
+                        },
+                        {
+                            "0": 6,
+                            "1": "Belgian Chicken Curry Salad",
+                            "2": 7.25
+                        },
+                        {
+                            "0": 48,
+                            "1": "Beef Curry",
+                            "2": 7.5
+                        },
+                        {
+                            "0": 23,
+                            "1": "Toasted Pimiento Cheese",
+                            "2": 8
+                        },
+                        {
+                            "0": 4,
+                            "1": "Roast Beef",
+                            "2": 9.4
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "ranking",
+                            "field": "0",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "menu",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "price",
+                            "field": "2",
+                            "dataType": {
+                                "type": 7,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 53,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FLOAT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 5 records retrieved in 5.691ms"
+                    },
+                    "totalRowCount": 5,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT ranking, menu, price\nFROM sandwitch\nWHERE (menu LIKE '%Salad%' OR menu LIKE '%Cheese%' OR menu LIKE '%Beef%')\nORDER BY price ASC LIMIT 5",
+                    "updatable": false,
+                    "fullTableName": "sandwitch"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 10,
+                "end": 15,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "executionInfo": {
+                        "text": "OK, 0 records retrieved in 37.87ms"
+                    },
+                    "text": [
+                        {
+                            "type": 3,
+                            "content": "+\n"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 76
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 16,
+                "end": 16,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "executionInfo": {
+                        "text": "OK, 3 records retrieved in 6.587ms"
+                    },
+                    "text": [
+                        {
+                            "type": 3,
+                            "content": "sql> DESC movie;\n+-------+-------------+------+-----+---------+-------+\n| Field | Type        | Null | Key | Default | Extra |\n+-------+-------------+------+-----+---------+-------+\n| date  | date        | YES  |     | null    |       |\n| name  | varchar(64) | YES  |     | null    |       |\n| point | float       | YES  |     | null    |       |\n+-------+-------------+------+-----+---------+-------+\n"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 11
+                        },
+                        "contentStart": 1,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 17,
+                "end": 21,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "d0e48107-da19-43c7-8033-a20357f8ffd6"
+                    ]
+                },
+                "currentHeight": 36,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 132
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 132,
+                            "length": 1
+                        },
+                        "contentStart": 131,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "d0e48107-da19-43c7-8033-a20357f8ffd6",
+                    "rows": [
+                        {
+                            "0": "2018-01-19",
+                            "1": "다운사이징",
+                            "2": 5.99
+                        },
+                        {
+                            "0": "2018-02-16",
+                            "1": "흥부",
+                            "2": 5.99
+                        },
+                        {
+                            "0": "2018-01-20",
+                            "1": "다운사이징",
+                            "2": 5.98
+                        },
+                        {
+                            "0": "2018-02-20",
+                            "1": "골든슬럼버",
+                            "2": 5.96
+                        },
+                        {
+                            "0": "2018-01-21",
+                            "1": "다운사이징",
+                            "2": 5.95
+                        },
+                        {
+                            "0": "2018-01-22",
+                            "1": "다운사이징",
+                            "2": 5.94
+                        },
+                        {
+                            "0": "2018-01-23",
+                            "1": "다운사이징",
+                            "2": 5.92
+                        },
+                        {
+                            "0": "2018-02-21",
+                            "1": "골든슬럼버",
+                            "2": 5.92
+                        },
+                        {
+                            "0": "2018-01-24",
+                            "1": "다운사이징",
+                            "2": 5.91
+                        },
+                        {
+                            "0": "2018-01-25",
+                            "1": "다운사이징",
+                            "2": 5.89
+                        },
+                        {
+                            "0": "2018-02-22",
+                            "1": "골든슬럼버",
+                            "2": 5.89
+                        },
+                        {
+                            "0": "2018-01-26",
+                            "1": "다운사이징",
+                            "2": 5.87
+                        },
+                        {
+                            "0": "2018-02-23",
+                            "1": "골든슬럼버",
+                            "2": 5.85
+                        },
+                        {
+                            "0": "2018-01-27",
+                            "1": "다운사이징",
+                            "2": 5.84
+                        },
+                        {
+                            "0": "2018-02-24",
+                            "1": "골든슬럼버",
+                            "2": 5.83
+                        },
+                        {
+                            "0": "2018-02-25",
+                            "1": "골든슬럼버",
+                            "2": 5.81
+                        },
+                        {
+                            "0": "2018-02-26",
+                            "1": "골든슬럼버",
+                            "2": 5.79
+                        },
+                        {
+                            "0": "2018-02-27",
+                            "1": "골든슬럼버",
+                            "2": 5.78
+                        },
+                        {
+                            "0": "2018-02-28",
+                            "1": "골든슬럼버",
+                            "2": 5.76
+                        },
+                        {
+                            "0": "2018-03-01",
+                            "1": "골든슬럼버",
+                            "2": 5.75
+                        },
+                        {
+                            "0": "2018-03-02",
+                            "1": "골든슬럼버",
+                            "2": 5.75
+                        },
+                        {
+                            "0": "2018-02-01",
+                            "1": "염력",
+                            "2": 5.75
+                        },
+                        {
+                            "0": "2018-03-04",
+                            "1": "골든슬럼버",
+                            "2": 5.74
+                        },
+                        {
+                            "0": "2018-03-05",
+                            "1": "골든슬럼버",
+                            "2": 5.74
+                        },
+                        {
+                            "0": "2018-03-03",
+                            "1": "골든슬럼버",
+                            "2": 5.74
+                        },
+                        {
+                            "0": "2018-03-06",
+                            "1": "골든슬럼버",
+                            "2": 5.73
+                        },
+                        {
+                            "0": "2018-01-28",
+                            "1": "다운사이징",
+                            "2": 5.73
+                        },
+                        {
+                            "0": "2018-01-29",
+                            "1": "다운사이징",
+                            "2": 5.7
+                        },
+                        {
+                            "0": "2018-03-07",
+                            "1": "골든슬럼버",
+                            "2": 5.69
+                        },
+                        {
+                            "0": "2018-02-17",
+                            "1": "흥부",
+                            "2": 5.69
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "date",
+                            "field": "0",
+                            "dataType": {
+                                "type": 27,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "name",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "point",
+                            "field": "2",
+                            "dataType": {
+                                "type": 7,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 53,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FLOAT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 30 records retrieved in 10.973ms"
+                    },
+                    "totalRowCount": 30,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT *\nFROM movie\nWHERE (date BETWEEN '2018-01-01' AND '2018-12-31')\nand (point BETWEEN 5.0 AND 6.0)\nORDER BY point DESC LIMIT 30",
+                    "updatable": false,
+                    "fullTableName": "movie"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 22,
+                "end": 30,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "executionInfo": {
+                        "text": "OK, 0 records retrieved in 31.325ms"
+                    },
+                    "text": [
+                        {
+                            "type": 3,
+                            "content": "+\n"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 154
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 31,
+                "end": 31,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "executionInfo": {
+                        "text": "OK, 6 records retrieved in 5.342ms"
+                    },
+                    "text": [
+                        {
+                            "type": 3,
+                            "content": "sql> DESC gas_station;\n+-------+--------------+------+-----+---------+-------+\n| Field | Type         | Null | Key | Default | Extra |\n+-------+--------------+------+-----+---------+-------+\n| 코드    | char(8)      | YES  |     | null    |       |\n| 명칭    | varchar(16)  | YES  |     | null    |       |\n| 주소    | varchar(128) | YES  |     | null    |       |\n| 전화번호  | varchar(16)  | YES  |     | null    |       |\n| 영업시간  | varchar(16)  | YES  |     | null    |       |\n| 재고량   | int          | YES  |     | null    |       |\n+-------+--------------+------+-----+---------+-------+\n"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 17
+                        },
+                        "contentStart": 1,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 32,
+                "end": 35,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "0d215428-cb51-44dd-8b09-be405218be53"
+                    ]
+                },
+                "currentHeight": 36,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 110
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "0d215428-cb51-44dd-8b09-be405218be53",
+                    "rows": [
+                        {
+                            "0": "A0010223",
+                            "1": "언양(서울방향)",
+                            "2": "울산 울주군 언양읍 경부고속도로 44",
+                            "3": "052-263-6146",
+                            "4": "매일 24시간",
+                            "5": 4496
+                        },
+                        {
+                            "0": "A0033068",
+                            "1": "건천(부산방향)",
+                            "2": "경북 경주시 건천읍 경부고속도로 77",
+                            "3": "054-751-4600",
+                            "4": "매일 24시간",
+                            "5": 4269
+                        },
+                        {
+                            "0": "A0003399",
+                            "1": "안성(서울방향)",
+                            "2": "경기도 안성시 원곡면 경부고속도로 372",
+                            "3": "031-664-4096",
+                            "4": "매일 24시간",
+                            "5": 4200
+                        },
+                        {
+                            "0": "A0017711",
+                            "1": "군산(서울방향)",
+                            "2": "전북 군산시 나포면 서해안고속도로 148",
+                            "3": "063-453-5163",
+                            "4": "매일 24시간",
+                            "5": 3970
+                        },
+                        {
+                            "0": "A0032083",
+                            "1": "통도사(부산방향)",
+                            "2": "경남 양산시 하북면 경부고속도로 31-1",
+                            "3": "055-372-6163",
+                            "4": "매일 24시간",
+                            "5": 2796
+                        },
+                        {
+                            "0": "A0025491",
+                            "1": "김천(서울방향)",
+                            "2": "경북 김천시 농소면경부고속도로194 ",
+                            "3": "054-431-4477",
+                            "4": "매일 24시간",
+                            "5": 2780
+                        },
+                        {
+                            "0": "A0025482",
+                            "1": "추풍령(부산방향)",
+                            "2": "경북 김천시 봉산면 경부고속도로 213",
+                            "3": "054-430-0502",
+                            "4": "매일 24시간",
+                            "5": 2545
+                        },
+                        {
+                            "0": "A0019045",
+                            "1": "고창고인돌(서울방향)",
+                            "2": "전북 고창군 고창읍 서해안고속도로 80-1",
+                            "3": "063-561-0962",
+                            "4": "매일 24시간",
+                            "5": 1722
+                        },
+                        {
+                            "0": "A0025495",
+                            "1": "김천(부산방향)",
+                            "2": "경북 김천시 농소면 경부고속도로 193",
+                            "3": "054-435-0266",
+                            "4": "매일 24시간",
+                            "5": 1000
+                        },
+                        {
+                            "0": "A0032977",
+                            "1": "진주(부산방향)",
+                            "2": "경남 진주시 남해고속도로 194",
+                            "3": "055-759-1028",
+                            "4": "매일 24시간",
+                            "5": 200
+                        },
+                        {
+                            "0": "A0012447",
+                            "1": "옥산(부산방향)",
+                            "2": "충북 청주시 흥덕구 옥산면 경부고속도로 309",
+                            "3": "043-269-0843",
+                            "4": "매일 24시간",
+                            "5": 173
+                        },
+                        {
+                            "0": "A0017406",
+                            "1": "죽암(서울방향)",
+                            "2": "충북 청주시 서원구 현도면 경부고속도로 290",
+                            "3": "043-260-5341",
+                            "4": "매일 24시간",
+                            "5": 142
+                        },
+                        {
+                            "0": "A0014468",
+                            "1": "정안알밤(서울방향)",
+                            "2": "충남 공주시 정안면 논산천안고속도로 58",
+                            "3": "041-858-0565",
+                            "4": "평일 24시간",
+                            "5": 0
+                        },
+                        {
+                            "0": "A0033193",
+                            "1": "내린천(서울방향)",
+                            "2": "강원 인제군 상남면 서울양양고속도로 117",
+                            "3": "033-852-7110",
+                            "4": "매일 24시간",
+                            "5": 0
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "코드",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "명칭",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "주소",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "전화번호",
+                            "field": "3",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "영업시간",
+                            "field": "4",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "재고량",
+                            "field": "5",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 14 records retrieved in 5.402ms"
+                    },
+                    "totalRowCount": 14,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT * FROM gas_station\nWHERE (명칭 LIKE '%부산방향%' OR 명칭 LIKE '%서울방향%')\nAND 주소 LIKE '%고속도로%'\nORDER BY 재고량 DESC",
+                    "updatable": false,
+                    "fullTableName": "gas_station"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 36,
+                "end": 36,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
