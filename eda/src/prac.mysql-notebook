@@ -1,0 +1,690 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "DB Notebook",
+    "content": "\\about\nSELECT AVG(가격) self_avg, \n(select AVG(가격) FROM oil_price WHERE 상표 LIKE 'SK에너지') sk_avg\nFROM oil_price\nWHERE 셀프='Y';\nSELECT 상호, 가격\nFROM oil_price o,\n(select 상호, MAX(가격) max_price FROM oil_price GROUP BY 상표) m\nWHERE o.상호=m.상호\nAND o.가격=m.max_price;\nselect 상호, MAX(가격) max_price FROM oil_price GROUP BY 상표;\nSELECT r.이름 name, ROUND(r.금액 / o.가격, 2) liter \nFROM oil_price o, refueling r\nWHERE o.상호=r.주유소\nORDER BY liter DESC;\nSELECT r.주유소 gas_station, r.주유일 date, r.금액 max_price\nFROM refueling r\nJOIN (select 주유소, MAX(금액) max_value FROM refueling GROUP BY 주유소) m\nON (r.주유소=m.주유소 AND r.금액=m.max_value)\nWHERE r.주유일=(select MAX(주유일) FROM refueling WHERE 주유소=m.주유소 AND 금액=m.max_value)\nORDER BY r.금액 DESC, r.주유일 DESC;\n\n",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": {
+        "cursorState": [
+            {
+                "inSelectionMode": false,
+                "selectionStart": {
+                    "lineNumber": 22,
+                    "column": 1
+                },
+                "position": {
+                    "lineNumber": 22,
+                    "column": 1
+                }
+            }
+        ],
+        "viewState": {
+            "scrollLeft": 0,
+            "firstPosition": {
+                "lineNumber": 17,
+                "column": 1
+            },
+            "firstPositionDeltaTop": -11
+        },
+        "contributionsState": {
+            "editor.contrib.folding": {},
+            "editor.contrib.wordHighlighter": false
+        }
+    },
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 1,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "content": "Welcome to the MySQL Shell - DB Notebook.\n\nPress Ctrl+Enter to execute the code block.\n\nExecute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\nExecute \\help or \\? for help;",
+                            "language": "ansi"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 6
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 2,
+                "end": 5,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "e22544a1-242d-459c-bafd-ef9c209c4198"
+                    ]
+                },
+                "currentHeight": 92,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 115
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "e22544a1-242d-459c-bafd-ef9c209c4198",
+                    "rows": [
+                        {
+                            "0": "1517.6000",
+                            "1": "1719.2500"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "self_avg",
+                            "field": "0",
+                            "dataType": {
+                                "type": 10,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 65,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FIXED",
+                                    "NUMERIC",
+                                    "DEC"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "sk_avg",
+                            "field": "1",
+                            "dataType": {
+                                "type": 10,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 65,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FIXED",
+                                    "NUMERIC",
+                                    "DEC"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 1 record retrieved in 5.231ms"
+                    },
+                    "totalRowCount": 1,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT AVG(가격) self_avg, \n(select AVG(가격) FROM oil_price WHERE 상표 LIKE 'SK에너지') sk_avg\nFROM oil_price\nWHERE 셀프='Y'",
+                    "updatable": false,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 6,
+                "end": 10,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 0,
+                            "index": 0,
+                            "content": "MySQL Error (1052): Column '상호' in field list is ambiguous",
+                            "language": "ansi"
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": ""
+                    }
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 129
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 11,
+                "end": 11,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "1e9d0df5-103e-4ddc-a42d-a0bf564843aa"
+                    ]
+                },
+                "currentHeight": 172,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 56
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "1e9d0df5-103e-4ddc-a42d-a0bf564843aa",
+                    "rows": [
+                        {
+                            "0": "타이거주유소",
+                            "1": 2160
+                        },
+                        {
+                            "0": "(주)명연에너지",
+                            "1": 1498
+                        },
+                        {
+                            "0": "성락주유소",
+                            "1": 1509
+                        },
+                        {
+                            "0": "신길주유소",
+                            "1": 1498
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "상호",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "max_price",
+                            "field": "1",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 4 records retrieved in 6.887ms"
+                    },
+                    "totalRowCount": 4,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "select 상호, MAX(가격) max_price FROM oil_price GROUP BY 상표",
+                    "updatable": false,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 12,
+                "end": 15,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "3382f924-3201-42cc-b0d1-647fbf7059ee"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 114
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "3382f924-3201-42cc-b0d1-647fbf7059ee",
+                    "rows": [
+                        {
+                            "0": "이상순",
+                            "1": "94.34"
+                        },
+                        {
+                            "0": "아이유",
+                            "1": "69.44"
+                        },
+                        {
+                            "0": "이미주",
+                            "1": "55.56"
+                        },
+                        {
+                            "0": "아이유",
+                            "1": "55.56"
+                        },
+                        {
+                            "0": "아이유",
+                            "1": "53.91"
+                        },
+                        {
+                            "0": "유재석",
+                            "1": "53.02"
+                        },
+                        {
+                            "0": "유재석",
+                            "1": "50.93"
+                        },
+                        {
+                            "0": "유재석",
+                            "1": "39.76"
+                        },
+                        {
+                            "0": "강동원",
+                            "1": "33.69"
+                        },
+                        {
+                            "0": "이미주",
+                            "1": "33.69"
+                        },
+                        {
+                            "0": "이미주",
+                            "1": "33.69"
+                        },
+                        {
+                            "0": "유재석",
+                            "1": "27.78"
+                        },
+                        {
+                            "0": "유재석",
+                            "1": "23.15"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "name",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "liter",
+                            "field": "1",
+                            "dataType": {
+                                "type": 10,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 65,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FIXED",
+                                    "NUMERIC",
+                                    "DEC"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 13 records retrieved in 6.613ms"
+                    },
+                    "totalRowCount": 13,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT r.이름 name, ROUND(r.금액 / o.가격, 2) liter \nFROM oil_price o, refueling r\nWHERE o.상호=r.주유소\nORDER BY liter DESC",
+                    "updatable": false,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 16,
+                "end": 21,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "1e4cb354-c9dd-4ed3-aeef-c341064f4094"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 286
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "1e4cb354-c9dd-4ed3-aeef-c341064f4094",
+                    "rows": [
+                        {
+                            "0": "뉴서울(강남)",
+                            "1": "2021-10-14",
+                            "2": 150000
+                        },
+                        {
+                            "0": "타이거주유소",
+                            "1": "2021-10-20",
+                            "2": 140000
+                        },
+                        {
+                            "0": "제주주유소",
+                            "1": "2021-10-20",
+                            "2": 80000
+                        },
+                        {
+                            "0": "쌍문주유소",
+                            "1": "2021-10-14",
+                            "2": 80000
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "gas_station",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "date",
+                            "field": "1",
+                            "dataType": {
+                                "type": 27,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "max_price",
+                            "field": "2",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 4 records retrieved in 5.805ms"
+                    },
+                    "totalRowCount": 4,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT r.주유소 gas_station, r.주유일 date, r.금액 max_price\nFROM refueling r\nJOIN (select 주유소, MAX(금액) max_value FROM refueling GROUP BY 주유소) m\nON (r.주유소=m.주유소 AND r.금액=m.max_value)\nWHERE r.주유일=(select MAX(주유일) FROM refueling WHERE 주유소=m.주유소 AND 금액=m.max_value)\nORDER BY r.금액 DESC, r.주유일 DESC",
+                    "updatable": false,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 22,
+                "end": 22,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "b9fa37d3-0a70-4515-bb6e-d880fc96156d"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "2",
+                    "resultId": "b9fa37d3-0a70-4515-bb6e-d880fc96156d",
+                    "rows": [
+                        {
+                            "0": "뉴서울(강남)",
+                            "1": "2021-10-14",
+                            "2": 150000
+                        },
+                        {
+                            "0": "타이거주유소",
+                            "1": "2021-10-20",
+                            "2": 140000
+                        },
+                        {
+                            "0": "제주주유소",
+                            "1": "2021-10-20",
+                            "2": 80000
+                        },
+                        {
+                            "0": "쌍문주유소",
+                            "1": "2021-10-14",
+                            "2": 80000
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "gas_station",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "oil_date",
+                            "field": "1",
+                            "dataType": {
+                                "type": 27,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "max_price",
+                            "field": "2",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 4 records retrieved in 8.086ms"
+                    },
+                    "totalRowCount": 4,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT \n    r.주유소 AS gas_station, \n    r.주유일 AS oil_date, \n    r.금액 AS max_price\nFROM (\n    SELECT \n        r.주유소, \n        r.주유일, \n        r.금액, \n        ROW_NUMBER() OVER (PARTITION BY r.주유소 ORDER BY r.금액 DESC, r.주유일 DESC) AS rn\n    FROM refueling r\n) AS r\nWHERE r.rn = 1\nORDER BY max_price DESC, oil_date DESC",
+                    "updatable": true,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 23,
+                "end": 23,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
