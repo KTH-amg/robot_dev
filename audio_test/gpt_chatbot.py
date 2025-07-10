@@ -4,7 +4,7 @@ import speech_recognition as sr
 import pyttsx3
 import time
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "********"
 
 # 🔑 API 키 설정
 openai.api_key = os.getenv("OPENAI_API_KEY")
