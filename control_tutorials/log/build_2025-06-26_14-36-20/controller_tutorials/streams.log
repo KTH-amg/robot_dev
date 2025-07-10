@@ -1,0 +1,32 @@
+[0.736s] Invoking command in '/home/kth/robot_dev/control_tutorials/src/controller_tutorials': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/control_tutorials/build/controller_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_tutorials build --build-base /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build install --record /home/kth/robot_dev/control_tutorials/build/controller_tutorials/install.log --single-version-externally-managed install_data
+[0.983s] running egg_info
+[1.003s] writing ../../build/controller_tutorials/controller_tutorials.egg-info/PKG-INFO
+[1.003s] writing dependency_links to ../../build/controller_tutorials/controller_tutorials.egg-info/dependency_links.txt
+[1.003s] writing entry points to ../../build/controller_tutorials/controller_tutorials.egg-info/entry_points.txt
+[1.003s] writing requirements to ../../build/controller_tutorials/controller_tutorials.egg-info/requires.txt
+[1.004s] writing top-level names to ../../build/controller_tutorials/controller_tutorials.egg-info/top_level.txt
+[1.044s] reading manifest file '../../build/controller_tutorials/controller_tutorials.egg-info/SOURCES.txt'
+[1.045s] writing manifest file '../../build/controller_tutorials/controller_tutorials.egg-info/SOURCES.txt'
+[1.045s] running build
+[1.045s] running build_py
+[1.045s] copying controller_tutorials/monitor_for_move_turtle.py -> /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build/lib/controller_tutorials
+[1.045s] copying controller_tutorials/move_turtle.py -> /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build/lib/controller_tutorials
+[1.045s] running install
+[1.051s] running install_lib
+[1.072s] copying /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build/lib/controller_tutorials/monitor_for_move_turtle.py -> /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials
+[1.072s] copying /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build/lib/controller_tutorials/move_turtle.py -> /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials
+[1.073s] byte-compiling /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials/monitor_for_move_turtle.py to monitor_for_move_turtle.cpython-312.pyc
+[1.074s] byte-compiling /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials/move_turtle.py to move_turtle.cpython-312.pyc
+[1.076s] running install_data
+[1.076s] running install_egg_info
+[1.096s] removing '/home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials-0.0.0-py3.12.egg-info' (and everything under it)
+[1.096s] Copying ../../build/controller_tutorials/controller_tutorials.egg-info to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials-0.0.0-py3.12.egg-info
+[1.097s] running install_scripts
+[1.228s] Installing control_rotate script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.228s] Installing monitor_for_move_turtle script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.228s] Installing move_turtle script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.228s] Installing pose_dual_controller script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.228s] Installing qmonitor_for_pose_dual_controller script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.228s] Installing simple_rotate script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.229s] writing list of installed files to '/home/kth/robot_dev/control_tutorials/build/controller_tutorials/install.log'
+[1.252s] Invoked command in '/home/kth/robot_dev/control_tutorials/src/controller_tutorials' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/control_tutorials/build/controller_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_tutorials build --build-base /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build install --record /home/kth/robot_dev/control_tutorials/build/controller_tutorials/install.log --single-version-externally-managed install_data

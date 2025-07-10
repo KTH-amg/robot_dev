@@ -1,0 +1,9 @@
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/uninstall.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/pinky_gazebo_uninstall.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/test.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/edit_cache.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/rebuild_cache.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/list_install_components.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/install.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/install/local.dir
+/home/kth/robot_dev/pinky/build/pinky_gazebo/CMakeFiles/install/strip.dir

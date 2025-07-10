@@ -11,16 +11,16 @@ try:
     print(f'width = {width}, height = {height}')
 
     fourcc = cv2.VideoWriter_fourcc(*'DIVX')
-    out = cv2.VideoWriter('./data/test__.avi', fourcc, 20,
-                          (width, height), isColor=False)
+    out = cv2.VideoWriter('./data/goleft_2.avi', fourcc, 20,
+                          (width, height), isColor=True)
 
     while True:
         ret, frame = cap.read()
 
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        cv2.imshow('frame', gray)
+        #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        cv2.imshow('frame', frame)
 
-        out.write(gray)
+        out.write(frame)
 
         if cv2.waitKey(1) == 27:
             break

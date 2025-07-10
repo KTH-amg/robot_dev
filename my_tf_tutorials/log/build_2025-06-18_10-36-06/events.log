@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000451] (my_tf) JobQueued: {'identifier': 'my_tf', 'dependencies': OrderedDict()}
+[0.000475] (my_tf) JobStarted: {'identifier': 'my_tf'}
+[0.099877] (-) TimerEvent: {}
+[0.200046] (-) TimerEvent: {}
+[0.300217] (-) TimerEvent: {}
+[0.400435] (-) TimerEvent: {}
+[0.500676] (-) TimerEvent: {}
+[0.600892] (-) TimerEvent: {}
+[0.670820] (my_tf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_tf', 'build', '--build-base', '/home/kth/robot_dev/my_tf_tutorials/build/my_tf/build', 'install', '--record', '/home/kth/robot_dev/my_tf_tutorials/build/my_tf/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kth/robot_dev/my_tf_tutorials/src/my_tf', 'env': {'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3657-21-kth-GP75-Leopard-10SEK_TIME90020980', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'XDG_SESSION_TYPE': 'x11', 'POWERLINE_COMMAND': 'oh-my-posh', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'SHLVL': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3168', 'SYSTEMD_EXEC_PID': '3657', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '380118', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:18348', 'POSH_SESSION_ID': '55f27d94-8415-4e71-a00d-4d313075ce1a', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'USERNAME': 'kth', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/3625,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/3625', 'INVOCATION_ID': '7821d0460ee94dc2929995e9e2cea6de', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:1f68c0e3-fe68-46de-95fd-7c3406d48c55', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/my_tf_tutorials/build/my_tf', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/kth/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/kth/robot_dev/my_tf_tutorials/build/my_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.700971] (-) TimerEvent: {}
+[0.801177] (-) TimerEvent: {}
+[0.898920] (my_tf) StdoutLine: {'line': b'running egg_info\n'}
+[0.899277] (my_tf) StdoutLine: {'line': b'creating ../../build/my_tf/my_tf.egg-info\n'}
+[0.901235] (-) TimerEvent: {}
+[0.918026] (my_tf) StdoutLine: {'line': b'writing ../../build/my_tf/my_tf.egg-info/PKG-INFO\n'}
+[0.918208] (my_tf) StdoutLine: {'line': b'writing dependency_links to ../../build/my_tf/my_tf.egg-info/dependency_links.txt\n'}
+[0.918326] (my_tf) StdoutLine: {'line': b'writing entry points to ../../build/my_tf/my_tf.egg-info/entry_points.txt\n'}
+[0.918407] (my_tf) StdoutLine: {'line': b'writing requirements to ../../build/my_tf/my_tf.egg-info/requires.txt\n'}
+[0.918476] (my_tf) StdoutLine: {'line': b'writing top-level names to ../../build/my_tf/my_tf.egg-info/top_level.txt\n'}
+[0.918553] (my_tf) StdoutLine: {'line': b"writing manifest file '../../build/my_tf/my_tf.egg-info/SOURCES.txt'\n"}
+[0.954309] (my_tf) StdoutLine: {'line': b"reading manifest file '../../build/my_tf/my_tf.egg-info/SOURCES.txt'\n"}
+[0.954830] (my_tf) StdoutLine: {'line': b"writing manifest file '../../build/my_tf/my_tf.egg-info/SOURCES.txt'\n"}
+[0.955132] (my_tf) StdoutLine: {'line': b'running build\n'}
+[0.955220] (my_tf) StdoutLine: {'line': b'running build_py\n'}
+[0.955279] (my_tf) StdoutLine: {'line': b'creating /home/kth/robot_dev/my_tf_tutorials/build/my_tf/build\n'}
+[0.955357] (my_tf) StdoutLine: {'line': b'creating /home/kth/robot_dev/my_tf_tutorials/build/my_tf/build/lib\n'}
+[0.955419] (my_tf) StdoutLine: {'line': b'creating /home/kth/robot_dev/my_tf_tutorials/build/my_tf/build/lib/my_tf\n'}
+[0.955474] (my_tf) StdoutLine: {'line': b'copying my_tf/__init__.py -> /home/kth/robot_dev/my_tf_tutorials/build/my_tf/build/lib/my_tf\n'}
+[0.955549] (my_tf) StdoutLine: {'line': b'copying my_tf/my_tf_1.py -> /home/kth/robot_dev/my_tf_tutorials/build/my_tf/build/lib/my_tf\n'}
+[0.955606] (my_tf) StdoutLine: {'line': b'running install\n'}
+[0.960734] (my_tf) StdoutLine: {'line': b'running install_lib\n'}
+[0.979522] (my_tf) StdoutLine: {'line': b'creating /home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/python3.12/site-packages/my_tf\n'}
+[0.979731] (my_tf) StdoutLine: {'line': b'copying /home/kth/robot_dev/my_tf_tutorials/build/my_tf/build/lib/my_tf/__init__.py -> /home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/python3.12/site-packages/my_tf\n'}
+[0.979793] (my_tf) StdoutLine: {'line': b'copying /home/kth/robot_dev/my_tf_tutorials/build/my_tf/build/lib/my_tf/my_tf_1.py -> /home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/python3.12/site-packages/my_tf\n'}
+[0.980208] (my_tf) StdoutLine: {'line': b'byte-compiling /home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/python3.12/site-packages/my_tf/__init__.py to __init__.cpython-312.pyc\n'}
+[0.980453] (my_tf) StdoutLine: {'line': b'byte-compiling /home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/python3.12/site-packages/my_tf/my_tf_1.py to my_tf_1.cpython-312.pyc\n'}
+[0.980963] (my_tf) StdoutLine: {'line': b'running install_data\n'}
+[0.981308] (my_tf) StdoutLine: {'line': b'creating /home/kth/robot_dev/my_tf_tutorials/install/my_tf/share/ament_index\n'}
+[0.981468] (my_tf) StdoutLine: {'line': b'creating /home/kth/robot_dev/my_tf_tutorials/install/my_tf/share/ament_index/resource_index\n'}
+[0.981858] (my_tf) StdoutLine: {'line': b'creating /home/kth/robot_dev/my_tf_tutorials/install/my_tf/share/ament_index/resource_index/packages\n'}
+[0.981928] (my_tf) StdoutLine: {'line': b'copying resource/my_tf -> /home/kth/robot_dev/my_tf_tutorials/install/my_tf/share/ament_index/resource_index/packages\n'}
+[0.981985] (my_tf) StdoutLine: {'line': b'copying package.xml -> /home/kth/robot_dev/my_tf_tutorials/install/my_tf/share/my_tf\n'}
+[0.982038] (my_tf) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.001334] (my_tf) StdoutLine: {'line': b'Copying ../../build/my_tf/my_tf.egg-info to /home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/python3.12/site-packages/my_tf-0.0.0-py3.12.egg-info\n'}
+[1.001476] (-) TimerEvent: {}
+[1.002141] (my_tf) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101557] (-) TimerEvent: {}
+[1.116919] (my_tf) StdoutLine: {'line': b'Installing my_tf_1 script to /home/kth/robot_dev/my_tf_tutorials/install/my_tf/lib/my_tf\n'}
+[1.117232] (my_tf) StdoutLine: {'line': b"writing list of installed files to '/home/kth/robot_dev/my_tf_tutorials/build/my_tf/install.log'\n"}
+[1.137190] (my_tf) CommandEnded: {'returncode': 0}
+[1.144110] (my_tf) JobEnded: {'identifier': 'my_tf', 'rc': 0}
+[1.144392] (-) EventReactorShutdown: {}

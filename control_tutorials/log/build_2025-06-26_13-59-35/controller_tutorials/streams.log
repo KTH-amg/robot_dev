@@ -1,0 +1,27 @@
+[0.644s] Invoking command in '/home/kth/robot_dev/control_tutorials/src/controller_tutorials': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/control_tutorials/build/controller_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_tutorials build --build-base /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build install --record /home/kth/robot_dev/control_tutorials/build/controller_tutorials/install.log --single-version-externally-managed install_data
+[0.861s] running egg_info
+[0.878s] writing ../../build/controller_tutorials/controller_tutorials.egg-info/PKG-INFO
+[0.878s] writing dependency_links to ../../build/controller_tutorials/controller_tutorials.egg-info/dependency_links.txt
+[0.878s] writing entry points to ../../build/controller_tutorials/controller_tutorials.egg-info/entry_points.txt
+[0.878s] writing requirements to ../../build/controller_tutorials/controller_tutorials.egg-info/requires.txt
+[0.879s] writing top-level names to ../../build/controller_tutorials/controller_tutorials.egg-info/top_level.txt
+[0.913s] reading manifest file '../../build/controller_tutorials/controller_tutorials.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../../build/controller_tutorials/controller_tutorials.egg-info/SOURCES.txt'
+[0.914s] running build
+[0.914s] running build_py
+[0.914s] copying controller_tutorials/qmonitor_for_pose_dual_controller.py -> /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build/lib/controller_tutorials
+[0.914s] running install
+[0.919s] running install_lib
+[0.937s] copying /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build/lib/controller_tutorials/qmonitor_for_pose_dual_controller.py -> /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials
+[0.937s] byte-compiling /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials/qmonitor_for_pose_dual_controller.py to qmonitor_for_pose_dual_controller.cpython-312.pyc
+[0.939s] running install_data
+[0.939s] running install_egg_info
+[0.958s] removing '/home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials-0.0.0-py3.12.egg-info' (and everything under it)
+[0.958s] Copying ../../build/controller_tutorials/controller_tutorials.egg-info to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages/controller_tutorials-0.0.0-py3.12.egg-info
+[0.958s] running install_scripts
+[1.067s] Installing control_rotate script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.067s] Installing pose_dual_controller script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.068s] Installing qmonitor_for_pose_dual_controller script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.068s] Installing simple_rotate script to /home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/controller_tutorials
+[1.068s] writing list of installed files to '/home/kth/robot_dev/control_tutorials/build/controller_tutorials/install.log'
+[1.084s] Invoked command in '/home/kth/robot_dev/control_tutorials/src/controller_tutorials' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/control_tutorials/build/controller_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/control_tutorials/install/controller_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_tutorials build --build-base /home/kth/robot_dev/control_tutorials/build/controller_tutorials/build install --record /home/kth/robot_dev/control_tutorials/build/controller_tutorials/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/dependency_links.txt
+writing entry points to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/entry_points.txt
+writing requirements to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/requires.txt
+writing top-level names to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/top_level.txt
+reading manifest file '../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_opencv_tutorials/cartoon.py -> /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/build/lib/my_opencv_tutorials
+running install
+running install_lib
+copying /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/build/lib/my_opencv_tutorials/cartoon.py -> /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials
+byte-compiling /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials/cartoon.py to cartoon.cpython-312.pyc
+running install_data
+copying launch/cartoon_styler.launch.xml -> /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/share/my_opencv_tutorials/launch
+copying config/cv_params.yaml -> /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/share/my_opencv_tutorials/config
+running install_egg_info
+removing '/home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cartoon script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+Installing convert_hsv script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+Installing edge_detect script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+Installing img_pub script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+writing list of installed files to '/home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/install.log'

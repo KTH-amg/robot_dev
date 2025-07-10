@@ -1,0 +1,30 @@
+[0.686s] Invoking command in '/home/kth/robot_dev/my_opencv_tutorials/src/my_opencv_tutorials': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_opencv_tutorials build --build-base /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/build install --record /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/install.log --single-version-externally-managed install_data
+[0.923s] running egg_info
+[0.942s] writing ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/PKG-INFO
+[0.942s] writing dependency_links to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/dependency_links.txt
+[0.942s] writing entry points to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/top_level.txt
+[0.983s] reading manifest file '../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/SOURCES.txt'
+[0.983s] writing manifest file '../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info/SOURCES.txt'
+[0.983s] running build
+[0.984s] running build_py
+[0.984s] copying my_opencv_tutorials/mnist_node.py -> /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/build/lib/my_opencv_tutorials
+[0.984s] running install
+[0.989s] running install_lib
+[1.009s] copying /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/build/lib/my_opencv_tutorials/mnist_node.py -> /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials
+[1.010s] byte-compiling /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials/mnist_node.py to mnist_node.cpython-312.pyc
+[1.011s] running install_data
+[1.011s] copying cnn_model.tflite -> /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/share/my_opencv_tutorials
+[1.017s] running install_egg_info
+[1.038s] removing '/home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials-0.0.0-py3.12.egg-info' (and everything under it)
+[1.038s] Copying ../../build/my_opencv_tutorials/my_opencv_tutorials.egg-info to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages/my_opencv_tutorials-0.0.0-py3.12.egg-info
+[1.038s] running install_scripts
+[1.156s] Installing cartoon script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+[1.156s] Installing convert_hsv script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+[1.157s] Installing edge_detect script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+[1.157s] Installing img_pub script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+[1.157s] Installing mnist_node script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+[1.157s] Installing optical_flow script to /home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/my_opencv_tutorials
+[1.157s] writing list of installed files to '/home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/install.log'
+[1.175s] Invoked command in '/home/kth/robot_dev/my_opencv_tutorials/src/my_opencv_tutorials' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/my_opencv_tutorials/install/my_opencv_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_opencv_tutorials build --build-base /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/build install --record /home/kth/robot_dev/my_opencv_tutorials/build/my_opencv_tutorials/install.log --single-version-externally-managed install_data
