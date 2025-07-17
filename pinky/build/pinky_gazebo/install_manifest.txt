@@ -3,6 +3,7 @@
 /home/kth/robot_dev/pinky/install/pinky_gazebo/share/pinky_gazebo/launch/launch_sim_resto.launch.xml
 /home/kth/robot_dev/pinky/install/pinky_gazebo/share/pinky_gazebo/worlds/pinky_restaurant_.world
 /home/kth/robot_dev/pinky/install/pinky_gazebo/share/pinky_gazebo/worlds/pinky_map.world
+/home/kth/robot_dev/pinky/install/pinky_gazebo/share/pinky_gazebo/worlds/pinky_factory_with_arm.world
 /home/kth/robot_dev/pinky/install/pinky_gazebo/share/pinky_gazebo/worlds/empty.world
 /home/kth/robot_dev/pinky/install/pinky_gazebo/share/pinky_gazebo/worlds/pinky_restaurant.world
 /home/kth/robot_dev/pinky/install/pinky_gazebo/share/pinky_gazebo/worlds/pinky_factory.world

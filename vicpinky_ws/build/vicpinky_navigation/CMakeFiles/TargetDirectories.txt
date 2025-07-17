@@ -1,0 +1,9 @@
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/uninstall.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/vicpinky_navigation_uninstall.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/test.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/edit_cache.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/rebuild_cache.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/list_install_components.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/install.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/install/local.dir
+/home/kth/robot_dev/vicpinky_ws/build/vicpinky_navigation/CMakeFiles/install/strip.dir
