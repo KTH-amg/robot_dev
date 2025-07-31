@@ -1,0 +1,72 @@
+[0.007s] Invoking command in '/home/kth/robot_dev/simple_central_server/build/simple_central_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/simple_central_server/src/simple_central_server -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/simple_central_server/install/simple_central_server
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.088s] -- The CXX compiler identification is GNU 13.3.0
+[0.099s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.461s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.499s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.618s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.677s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.693s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.779s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.808s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.833s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.854s] -- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[0.957s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[0.962s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.977s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.978s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.979s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.070s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.152s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.152s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kth/robot_dev/simple_central_server/src/simple_central_server/include>
+[1.152s] -- Configured cppcheck exclude dirs and/or files: 
+[1.153s] -- Added test 'lint_cmake' to check CMake code style
+[1.154s] -- Added test 'uncrustify' to check C / C++ code style
+[1.154s] -- Configured uncrustify additional arguments: 
+[1.154s] -- Added test 'xmllint' to check XML markup files
+[1.155s] -- Configuring done (1.1s)
+[1.167s] -- Generating done (0.0s)
+[1.170s] -- Build files have been written to: /home/kth/robot_dev/simple_central_server/build/simple_central_server
+[1.178s] Invoked command in '/home/kth/robot_dev/simple_central_server/build/simple_central_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/simple_central_server/src/simple_central_server -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/simple_central_server/install/simple_central_server
+[1.179s] Invoking command in '/home/kth/robot_dev/simple_central_server/build/simple_central_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/simple_central_server/build/simple_central_server -- -j12 -l12
+[1.217s] [ 66%] [32mBuilding CXX object CMakeFiles/simple_central_server.dir/src/main.cpp.o[0m
+[1.217s] [ 66%] [32mBuilding CXX object CMakeFiles/simple_central_server.dir/src/simple_central_server.cpp.o[0m
+[13.289s] [100%] [32m[1mLinking CXX executable simple_central_server[0m
+[13.719s] [100%] Built target simple_central_server
+[13.729s] Invoked command in '/home/kth/robot_dev/simple_central_server/build/simple_central_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/simple_central_server/build/simple_central_server -- -j12 -l12
+[13.737s] Invoking command in '/home/kth/robot_dev/simple_central_server/build/simple_central_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/simple_central_server/build/simple_central_server
+[13.743s] -- Install configuration: ""
+[13.743s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/lib/simple_central_server/simple_central_server
+[13.749s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/simple_central_server/install/simple_central_server/lib/simple_central_server/simple_central_server" to ""
+[13.749s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/package_run_dependencies/simple_central_server
+[13.749s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/parent_prefix_path/simple_central_server
+[13.749s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/ament_prefix_path.sh
+[13.749s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/ament_prefix_path.dsv
+[13.749s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/path.sh
+[13.749s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/path.dsv
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.bash
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.sh
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.zsh
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.dsv
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/package.dsv
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/packages/simple_central_server
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/cmake/simple_central_serverConfig.cmake
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/cmake/simple_central_serverConfig-version.cmake
+[13.750s] -- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/package.xml
+[13.752s] Invoked command in '/home/kth/robot_dev/simple_central_server/build/simple_central_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/simple_central_server/build/simple_central_server

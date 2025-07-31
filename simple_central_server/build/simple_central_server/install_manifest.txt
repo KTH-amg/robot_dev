@@ -1,0 +1,16 @@
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/lib/simple_central_server/simple_central_server
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/package_run_dependencies/simple_central_server
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/parent_prefix_path/simple_central_server
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/ament_prefix_path.sh
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/ament_prefix_path.dsv
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/path.sh
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/path.dsv
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.bash
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.sh
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.zsh
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.dsv
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/package.dsv
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/packages/simple_central_server
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/cmake/simple_central_serverConfig.cmake
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/cmake/simple_central_serverConfig-version.cmake
+/home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/package.xml

@@ -1,0 +1,2 @@
+[console_scripts]
+bringup = vicpinky_bringup.bringup:main

@@ -1,0 +1,17 @@
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/lib/auto_path_navigation_server/auto_path_navigation_server
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/include//auto_path_navigation_server/auto_path_navigation_server.hpp
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/package_run_dependencies/auto_path_navigation_server
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/parent_prefix_path/auto_path_navigation_server
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/ament_prefix_path.sh
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/ament_prefix_path.dsv
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/path.sh
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/path.dsv
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.bash
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.sh
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.zsh
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.dsv
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/package.dsv
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/packages/auto_path_navigation_server
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/cmake/auto_path_navigation_serverConfig.cmake
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/cmake/auto_path_navigation_serverConfig-version.cmake
+/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/package.xml

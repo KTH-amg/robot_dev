@@ -1,0 +1,24 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/auto_path_navigation_server.dir/src/auto_path_navigation_server.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable auto_path_navigation_server[0m
+[100%] Built target auto_path_navigation_server
+-- Install configuration: ""
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/lib/auto_path_navigation_server/auto_path_navigation_server
+-- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/lib/auto_path_navigation_server/auto_path_navigation_server" to ""
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/include/
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/include//auto_path_navigation_server
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/include//auto_path_navigation_server/auto_path_navigation_server.hpp
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/package_run_dependencies/auto_path_navigation_server
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/parent_prefix_path/auto_path_navigation_server
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/ament_prefix_path.sh
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/ament_prefix_path.dsv
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/path.sh
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/path.dsv
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.bash
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.sh
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.zsh
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.dsv
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/package.dsv
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/packages/auto_path_navigation_server
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/cmake/auto_path_navigation_serverConfig.cmake
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/cmake/auto_path_navigation_serverConfig-version.cmake
+-- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/package.xml

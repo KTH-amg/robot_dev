@@ -1,0 +1,16 @@
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/robot_navigator
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/package_run_dependencies/robot_navigator
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/parent_prefix_path/robot_navigator
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.sh
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.dsv
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.sh
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.dsv
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.bash
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.sh
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.zsh
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.dsv
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.dsv
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/packages/robot_navigator
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig.cmake
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig-version.cmake
+/home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.xml

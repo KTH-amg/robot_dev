@@ -1,0 +1,37 @@
+[0.951s] Invoking command in '/home/kth/robot_dev/bt_tutorials/src/my_behavior_tree': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_behavior_tree build --build-base /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build install --record /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/install.log --single-version-externally-managed install_data
+[1.190s] running egg_info
+[1.190s] creating ../../build/my_behavior_tree/my_behavior_tree.egg-info
+[1.209s] writing ../../build/my_behavior_tree/my_behavior_tree.egg-info/PKG-INFO
+[1.209s] writing dependency_links to ../../build/my_behavior_tree/my_behavior_tree.egg-info/dependency_links.txt
+[1.210s] writing entry points to ../../build/my_behavior_tree/my_behavior_tree.egg-info/entry_points.txt
+[1.210s] writing requirements to ../../build/my_behavior_tree/my_behavior_tree.egg-info/requires.txt
+[1.210s] writing top-level names to ../../build/my_behavior_tree/my_behavior_tree.egg-info/top_level.txt
+[1.210s] writing manifest file '../../build/my_behavior_tree/my_behavior_tree.egg-info/SOURCES.txt'
+[1.248s] reading manifest file '../../build/my_behavior_tree/my_behavior_tree.egg-info/SOURCES.txt'
+[1.248s] writing manifest file '../../build/my_behavior_tree/my_behavior_tree.egg-info/SOURCES.txt'
+[1.249s] running build
+[1.249s] running build_py
+[1.249s] creating /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build
+[1.249s] creating /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build/lib
+[1.249s] creating /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build/lib/my_behavior_tree
+[1.249s] copying my_behavior_tree/bt_basic.py -> /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build/lib/my_behavior_tree
+[1.249s] copying my_behavior_tree/__init__.py -> /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build/lib/my_behavior_tree
+[1.249s] running install
+[1.254s] running install_lib
+[1.273s] creating /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages/my_behavior_tree
+[1.273s] copying /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build/lib/my_behavior_tree/bt_basic.py -> /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages/my_behavior_tree
+[1.273s] copying /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build/lib/my_behavior_tree/__init__.py -> /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages/my_behavior_tree
+[1.273s] byte-compiling /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages/my_behavior_tree/bt_basic.py to bt_basic.cpython-312.pyc
+[1.274s] byte-compiling /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages/my_behavior_tree/__init__.py to __init__.cpython-312.pyc
+[1.274s] running install_data
+[1.274s] creating /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/share/ament_index
+[1.274s] creating /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/share/ament_index/resource_index
+[1.274s] creating /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/share/ament_index/resource_index/packages
+[1.274s] copying resource/my_behavior_tree -> /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/share/ament_index/resource_index/packages
+[1.274s] copying package.xml -> /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/share/my_behavior_tree
+[1.275s] running install_egg_info
+[1.294s] Copying ../../build/my_behavior_tree/my_behavior_tree.egg-info to /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages/my_behavior_tree-0.0.0-py3.12.egg-info
+[1.295s] running install_scripts
+[1.415s] Installing bt_basic script to /home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/my_behavior_tree
+[1.415s] writing list of installed files to '/home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/install.log'
+[1.437s] Invoked command in '/home/kth/robot_dev/bt_tutorials/src/my_behavior_tree' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/bt_tutorials/install/my_behavior_tree/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_behavior_tree build --build-base /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/build install --record /home/kth/robot_dev/bt_tutorials/build/my_behavior_tree/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+bt_basic = my_behavior_tree.bt_basic:main

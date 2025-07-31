@@ -1,0 +1,97 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo
+-- Install configuration: ""
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/launch
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/launch/spawn.launch.xml
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/launch/launch_sim_2.launch.xml
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/launch/launch_sim.launch.xml
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/worlds
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/worlds/factory_L1.world
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/worlds/asan_map.world
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/worlds/pinky_factory.world
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/worlds/empty.world
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/worlds/pinky_map.world
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/meshes
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/meshes/desk.obj
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/meshes/desk.mtl
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/meshes/Desk_Diffuse.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/model.sdf
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/thumbnails
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/thumbnails/2.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/thumbnails/3.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/thumbnails/5.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/thumbnails/1.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/thumbnails/4.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/desk/model.config
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/asan_hospital
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/asan_hospital/meshes
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/asan_hospital/meshes/asan_map.obj
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/asan_hospital/model.sdf
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/asan_hospital/model.config
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/img
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/img/pinklab_half.jpg
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/img/pinklab.jpg
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/concrete2.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/wall_3.obj
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/wall_2.obj
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/wall_1.mtl
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/wall_1.obj
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/blue_linoleum.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/floor_1.obj
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/default.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/wall_3.mtl
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/wall_2.mtl
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/floor_1.mtl
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/meshes/model.material
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/model.sdf
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/factory_L1/model.config
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/robot
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/robot/jetcobot.dae
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/meshes
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/meshes/Box_paper_04_1_Base_Color.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/meshes/shelf_big_movai.dae
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/original_modl.sdf
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/model.sdf
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/thumbnails
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/thumbnails/1.png
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/models/shelf/model.config
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/params
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/params/pinky_bridge.yaml
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/ament_index/resource_index/package_run_dependencies/vicpinky_gazebo
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/ament_index/resource_index/parent_prefix_path/vicpinky_gazebo
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/environment/path.sh
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/environment/path.dsv
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/local_setup.bash
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/local_setup.sh
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/local_setup.zsh
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/local_setup.dsv
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.dsv
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/ament_index/resource_index/packages/vicpinky_gazebo
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/cmake/vicpinky_gazeboConfig.cmake
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/cmake/vicpinky_gazeboConfig-version.cmake
+-- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.xml

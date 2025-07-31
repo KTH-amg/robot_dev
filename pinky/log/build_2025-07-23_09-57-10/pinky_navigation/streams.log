@@ -1,0 +1,34 @@
+[0.011s] Invoking command in '/home/kth/robot_dev/pinky/build/pinky_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/pinky/src/pinky_for_edu/pinky_navigation -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/pinky/install/pinky_navigation
+[0.135s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.238s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.403s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.412s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.499s] -- Found Python3: /home/kth/venv/ros_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.604s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.619s] Traceback (most recent call last):
+[0.619s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.620s]     from catkin_pkg.package import parse_package_string
+[0.620s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.623s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.623s]   execute_process(/home/kth/venv/ros_venv/bin/python3
+[0.623s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.623s]   /home/kth/robot_dev/pinky/src/pinky_for_edu/pinky_navigation/package.xml
+[0.623s]   /home/kth/robot_dev/pinky/build/pinky_navigation/ament_cmake_core/package.cmake)
+[0.623s]   returned error code 1
+[0.623s] Call Stack (most recent call first):
+[0.623s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.623s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.623s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.623s] 
+[0.623s] [0m
+[0.623s] -- Configuring incomplete, errors occurred!
+[0.626s] Invoked command in '/home/kth/robot_dev/pinky/build/pinky_navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/pinky/src/pinky_for_edu/pinky_navigation -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/pinky/install/pinky_navigation

@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000564] (simple_central_server) JobQueued: {'identifier': 'simple_central_server', 'dependencies': OrderedDict()}
+[0.000603] (simple_central_server) JobStarted: {'identifier': 'simple_central_server'}
+[0.006441] (simple_central_server) JobProgress: {'identifier': 'simple_central_server', 'progress': 'cmake'}
+[0.006733] (simple_central_server) Command: {'cmd': ['/usr/bin/cmake', '/home/kth/robot_dev/simple_central_server/src/simple_central_server', '-DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/simple_central_server/install/simple_central_server'], 'cwd': '/home/kth/robot_dev/simple_central_server/build/simple_central_server', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2748-14-kth-GP75-Leopard-10SEK_TIME14513644', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'POWERLINE_COMMAND': 'oh-my-posh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2278', 'SYSTEMD_EXEC_PID': '2748', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31543', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:17043', 'POSH_SESSION_ID': '155c4b4a-0442-49e4-9416-4b4fcbd24fc8', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2715,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2715', 'INVOCATION_ID': '46948530820e4afe9d62d6ac694db1d3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_DOMAIN_ID': '22', 'TERMINATOR_UUID': 'urn:uuid:9d37bcb6-8a21-4991-b249-ba06a4cb433f', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/simple_central_server/build/simple_central_server', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048621] (simple_central_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.088639] (simple_central_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099553] (simple_central_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099808] (-) TimerEvent: {}
+[0.161980] (simple_central_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.170505] (simple_central_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.170630] (simple_central_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.171088] (simple_central_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.178059] (simple_central_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199923] (-) TimerEvent: {}
+[0.251573] (simple_central_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.259557] (simple_central_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.259733] (simple_central_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.260190] (simple_central_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.263148] (simple_central_server) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300031] (-) TimerEvent: {}
+[0.374356] (simple_central_server) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.400143] (-) TimerEvent: {}
+[0.461521] (simple_central_server) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.499680] (simple_central_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.500201] (-) TimerEvent: {}
+[0.513927] (simple_central_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.528883] (simple_central_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.545590] (simple_central_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600312] (-) TimerEvent: {}
+[0.615524] (simple_central_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.618462] (simple_central_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.677953] (simple_central_server) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.693647] (simple_central_server) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.700411] (-) TimerEvent: {}
+[0.712956] (simple_central_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.779026] (simple_central_server) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.800512] (-) TimerEvent: {}
+[0.808551] (simple_central_server) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.833143] (simple_central_server) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.854614] (simple_central_server) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)\n'}
+[0.900615] (-) TimerEvent: {}
+[0.957162] (simple_central_server) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.962192] (simple_central_server) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.977733] (simple_central_server) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.978832] (simple_central_server) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.979116] (simple_central_server) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000713] (-) TimerEvent: {}
+[1.070019] (simple_central_server) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.100893] (-) TimerEvent: {}
+[1.152400] (simple_central_server) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.152645] (simple_central_server) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kth/robot_dev/simple_central_server/src/simple_central_server/include>\n'}
+[1.152708] (simple_central_server) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.153255] (simple_central_server) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.154104] (simple_central_server) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.154187] (simple_central_server) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.154699] (simple_central_server) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.155957] (simple_central_server) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.167117] (simple_central_server) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.170402] (simple_central_server) StdoutLine: {'line': b'-- Build files have been written to: /home/kth/robot_dev/simple_central_server/build/simple_central_server\n'}
+[1.178446] (simple_central_server) CommandEnded: {'returncode': 0}
+[1.178955] (simple_central_server) JobProgress: {'identifier': 'simple_central_server', 'progress': 'build'}
+[1.179486] (simple_central_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kth/robot_dev/simple_central_server/build/simple_central_server', '--', '-j12', '-l12'], 'cwd': '/home/kth/robot_dev/simple_central_server/build/simple_central_server', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2748-14-kth-GP75-Leopard-10SEK_TIME14513644', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'POWERLINE_COMMAND': 'oh-my-posh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2278', 'SYSTEMD_EXEC_PID': '2748', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31543', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:17043', 'POSH_SESSION_ID': '155c4b4a-0442-49e4-9416-4b4fcbd24fc8', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2715,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2715', 'INVOCATION_ID': '46948530820e4afe9d62d6ac694db1d3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_DOMAIN_ID': '22', 'TERMINATOR_UUID': 'urn:uuid:9d37bcb6-8a21-4991-b249-ba06a4cb433f', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/simple_central_server/build/simple_central_server', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.200898] (-) TimerEvent: {}
+[1.217874] (simple_central_server) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/simple_central_server.dir/src/main.cpp.o\x1b[0m\n'}
+[1.218025] (simple_central_server) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/simple_central_server.dir/src/simple_central_server.cpp.o\x1b[0m\n'}
+[1.300995] (-) TimerEvent: {}
+[1.401228] (-) TimerEvent: {}
+[1.501463] (-) TimerEvent: {}
+[1.601753] (-) TimerEvent: {}
+[1.702085] (-) TimerEvent: {}
+[1.802374] (-) TimerEvent: {}
+[1.902663] (-) TimerEvent: {}
+[2.002876] (-) TimerEvent: {}
+[2.103164] (-) TimerEvent: {}
+[2.203489] (-) TimerEvent: {}
+[2.303783] (-) TimerEvent: {}
+[2.404089] (-) TimerEvent: {}
+[2.504341] (-) TimerEvent: {}
+[2.604638] (-) TimerEvent: {}
+[2.704939] (-) TimerEvent: {}
+[2.805239] (-) TimerEvent: {}
+[2.905530] (-) TimerEvent: {}
+[3.005798] (-) TimerEvent: {}
+[3.106052] (-) TimerEvent: {}
+[3.206303] (-) TimerEvent: {}
+[3.306558] (-) TimerEvent: {}
+[3.406803] (-) TimerEvent: {}
+[3.507087] (-) TimerEvent: {}
+[3.607334] (-) TimerEvent: {}
+[3.707581] (-) TimerEvent: {}
+[3.807854] (-) TimerEvent: {}
+[3.908114] (-) TimerEvent: {}
+[4.008349] (-) TimerEvent: {}
+[4.108611] (-) TimerEvent: {}
+[4.208921] (-) TimerEvent: {}
+[4.309184] (-) TimerEvent: {}
+[4.409428] (-) TimerEvent: {}
+[4.509654] (-) TimerEvent: {}
+[4.609877] (-) TimerEvent: {}
+[4.710121] (-) TimerEvent: {}
+[4.810363] (-) TimerEvent: {}
+[4.910600] (-) TimerEvent: {}
+[5.010860] (-) TimerEvent: {}
+[5.111100] (-) TimerEvent: {}
+[5.211345] (-) TimerEvent: {}
+[5.311601] (-) TimerEvent: {}
+[5.411869] (-) TimerEvent: {}
+[5.512128] (-) TimerEvent: {}
+[5.612375] (-) TimerEvent: {}
+[5.712612] (-) TimerEvent: {}
+[5.812860] (-) TimerEvent: {}
+[5.913099] (-) TimerEvent: {}
+[6.013337] (-) TimerEvent: {}
+[6.113569] (-) TimerEvent: {}
+[6.213810] (-) TimerEvent: {}
+[6.314118] (-) TimerEvent: {}
+[6.414327] (-) TimerEvent: {}
+[6.514588] (-) TimerEvent: {}
+[6.614815] (-) TimerEvent: {}
+[6.715104] (-) TimerEvent: {}
+[6.815353] (-) TimerEvent: {}
+[6.915603] (-) TimerEvent: {}
+[7.015851] (-) TimerEvent: {}
+[7.116122] (-) TimerEvent: {}
+[7.216384] (-) TimerEvent: {}
+[7.316631] (-) TimerEvent: {}
+[7.416876] (-) TimerEvent: {}
+[7.517211] (-) TimerEvent: {}
+[7.617453] (-) TimerEvent: {}
+[7.717711] (-) TimerEvent: {}
+[7.818012] (-) TimerEvent: {}
+[7.918248] (-) TimerEvent: {}
+[8.018483] (-) TimerEvent: {}
+[8.118737] (-) TimerEvent: {}
+[8.219021] (-) TimerEvent: {}
+[8.319257] (-) TimerEvent: {}
+[8.419490] (-) TimerEvent: {}
+[8.519728] (-) TimerEvent: {}
+[8.620014] (-) TimerEvent: {}
+[8.720249] (-) TimerEvent: {}
+[8.820482] (-) TimerEvent: {}
+[8.920712] (-) TimerEvent: {}
+[9.020972] (-) TimerEvent: {}
+[9.121226] (-) TimerEvent: {}
+[9.221463] (-) TimerEvent: {}
+[9.321695] (-) TimerEvent: {}
+[9.421929] (-) TimerEvent: {}
+[9.522161] (-) TimerEvent: {}
+[9.622395] (-) TimerEvent: {}
+[9.722626] (-) TimerEvent: {}
+[9.822878] (-) TimerEvent: {}
+[9.923118] (-) TimerEvent: {}
+[10.023344] (-) TimerEvent: {}
+[10.123574] (-) TimerEvent: {}
+[10.223805] (-) TimerEvent: {}
+[10.324077] (-) TimerEvent: {}
+[10.424317] (-) TimerEvent: {}
+[10.524547] (-) TimerEvent: {}
+[10.624781] (-) TimerEvent: {}
+[10.725051] (-) TimerEvent: {}
+[10.825318] (-) TimerEvent: {}
+[10.925554] (-) TimerEvent: {}
+[11.025755] (-) TimerEvent: {}
+[11.125977] (-) TimerEvent: {}
+[11.226198] (-) TimerEvent: {}
+[11.326417] (-) TimerEvent: {}
+[11.426658] (-) TimerEvent: {}
+[11.526890] (-) TimerEvent: {}
+[11.627125] (-) TimerEvent: {}
+[11.727344] (-) TimerEvent: {}
+[11.827583] (-) TimerEvent: {}
+[11.927815] (-) TimerEvent: {}
+[12.028046] (-) TimerEvent: {}
+[12.128245] (-) TimerEvent: {}
+[12.228478] (-) TimerEvent: {}
+[12.328735] (-) TimerEvent: {}
+[12.428989] (-) TimerEvent: {}
+[12.529223] (-) TimerEvent: {}
+[12.629458] (-) TimerEvent: {}
+[12.729690] (-) TimerEvent: {}
+[12.829928] (-) TimerEvent: {}
+[12.930158] (-) TimerEvent: {}
+[13.030400] (-) TimerEvent: {}
+[13.130650] (-) TimerEvent: {}
+[13.230892] (-) TimerEvent: {}
+[13.289503] (simple_central_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_central_server\x1b[0m\n'}
+[13.330996] (-) TimerEvent: {}
+[13.431244] (-) TimerEvent: {}
+[13.531492] (-) TimerEvent: {}
+[13.631762] (-) TimerEvent: {}
+[13.719342] (simple_central_server) StdoutLine: {'line': b'[100%] Built target simple_central_server\n'}
+[13.729388] (simple_central_server) CommandEnded: {'returncode': 0}
+[13.729754] (simple_central_server) JobProgress: {'identifier': 'simple_central_server', 'progress': 'install'}
+[13.731813] (-) TimerEvent: {}
+[13.737177] (simple_central_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kth/robot_dev/simple_central_server/build/simple_central_server'], 'cwd': '/home/kth/robot_dev/simple_central_server/build/simple_central_server', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2748-14-kth-GP75-Leopard-10SEK_TIME14513644', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'POWERLINE_COMMAND': 'oh-my-posh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2278', 'SYSTEMD_EXEC_PID': '2748', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31543', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:17043', 'POSH_SESSION_ID': '155c4b4a-0442-49e4-9416-4b4fcbd24fc8', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2715,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2715', 'INVOCATION_ID': '46948530820e4afe9d62d6ac694db1d3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_DOMAIN_ID': '22', 'TERMINATOR_UUID': 'urn:uuid:9d37bcb6-8a21-4991-b249-ba06a4cb433f', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/simple_central_server/build/simple_central_server', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.743270] (simple_central_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.743639] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/lib/simple_central_server/simple_central_server\n'}
+[13.749406] (simple_central_server) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/simple_central_server/install/simple_central_server/lib/simple_central_server/simple_central_server" to ""\n'}
+[13.749561] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/package_run_dependencies/simple_central_server\n'}
+[13.749655] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/parent_prefix_path/simple_central_server\n'}
+[13.749751] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/ament_prefix_path.sh\n'}
+[13.749866] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/ament_prefix_path.dsv\n'}
+[13.749967] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/path.sh\n'}
+[13.750056] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/environment/path.dsv\n'}
+[13.750147] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.bash\n'}
+[13.750239] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.sh\n'}
+[13.750322] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.zsh\n'}
+[13.750410] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/local_setup.dsv\n'}
+[13.750494] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/package.dsv\n'}
+[13.750600] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/ament_index/resource_index/packages/simple_central_server\n'}
+[13.750703] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/cmake/simple_central_serverConfig.cmake\n'}
+[13.750779] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/cmake/simple_central_serverConfig-version.cmake\n'}
+[13.750908] (simple_central_server) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/simple_central_server/install/simple_central_server/share/simple_central_server/package.xml\n'}
+[13.752339] (simple_central_server) CommandEnded: {'returncode': 0}
+[13.763509] (simple_central_server) JobEnded: {'identifier': 'simple_central_server', 'rc': 0}
+[13.764062] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/uninstall.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/vicpinky_gazebo_uninstall.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/test.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/edit_cache.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/rebuild_cache.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/list_install_components.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/install.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/install/local.dir
+/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo/CMakeFiles/install/strip.dir

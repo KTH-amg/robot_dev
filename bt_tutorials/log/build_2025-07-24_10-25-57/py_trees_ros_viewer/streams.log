@@ -1,0 +1,21 @@
+[0.954s] Invoking command in '/home/kth/robot_dev/bt_tutorials/src/py_trees_ros_viewer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/bt_tutorials/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/bt_tutorials/install/py_trees_ros_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_viewer build --build-base /home/kth/robot_dev/bt_tutorials/build/py_trees_ros_viewer/build install --record /home/kth/robot_dev/bt_tutorials/build/py_trees_ros_viewer/install.log --single-version-externally-managed install_data
+[1.270s] running egg_info
+[1.289s] writing ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/PKG-INFO
+[1.289s] writing dependency_links to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/dependency_links.txt
+[1.289s] writing entry points to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/entry_points.txt
+[1.289s] writing top-level names to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/top_level.txt
+[1.331s] reading manifest file '../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/SOURCES.txt'
+[1.331s] adding license file 'LICENSE'
+[1.331s] writing manifest file '../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/SOURCES.txt'
+[1.332s] running build
+[1.332s] running build_py
+[1.332s] running install
+[1.337s] running install_lib
+[1.357s] running install_data
+[1.357s] running install_egg_info
+[1.376s] removing '/home/kth/robot_dev/bt_tutorials/install/py_trees_ros_viewer/lib/python3.12/site-packages/py_trees_ros_viewer-0.2.5-py3.12.egg-info' (and everything under it)
+[1.376s] Copying ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info to /home/kth/robot_dev/bt_tutorials/install/py_trees_ros_viewer/lib/python3.12/site-packages/py_trees_ros_viewer-0.2.5-py3.12.egg-info
+[1.376s] running install_scripts
+[1.415s] Installing py-trees-tree-viewer script to /home/kth/robot_dev/bt_tutorials/install/py_trees_ros_viewer/bin
+[1.416s] writing list of installed files to '/home/kth/robot_dev/bt_tutorials/build/py_trees_ros_viewer/install.log'
+[1.439s] Invoked command in '/home/kth/robot_dev/bt_tutorials/src/py_trees_ros_viewer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/bt_tutorials/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/bt_tutorials/install/py_trees_ros_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_viewer build --build-base /home/kth/robot_dev/bt_tutorials/build/py_trees_ros_viewer/build install --record /home/kth/robot_dev/bt_tutorials/build/py_trees_ros_viewer/install.log --single-version-externally-managed install_data

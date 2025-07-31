@@ -1,5 +1,5 @@
-/home/kth/robot_dev/vicpinky_ws/install/vicpinky_navigation/share/vicpinky_navigation/launch/nav2_view.launch.xml
 /home/kth/robot_dev/vicpinky_ws/install/vicpinky_navigation/share/vicpinky_navigation/launch/map_view.launch.xml
+/home/kth/robot_dev/vicpinky_ws/install/vicpinky_navigation/share/vicpinky_navigation/launch/nav2_view.launch.xml
 /home/kth/robot_dev/vicpinky_ws/install/vicpinky_navigation/share/vicpinky_navigation/rviz/map_view.rviz
 /home/kth/robot_dev/vicpinky_ws/install/vicpinky_navigation/share/vicpinky_navigation/rviz/nav2_view.rviz
 /home/kth/robot_dev/vicpinky_ws/install/vicpinky_navigation/share/ament_index/resource_index/package_run_dependencies/vicpinky_navigation

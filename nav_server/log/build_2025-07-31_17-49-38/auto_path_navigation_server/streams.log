@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/kth/robot_dev/nav_server/build/auto_path_navigation_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/nav_server/build/auto_path_navigation_server -- -j12 -l12
+[0.057s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_path_navigation_server.dir/src/auto_path_navigation_server.cpp.o[0m
+[8.998s] [ 66%] [32m[1mLinking CXX executable auto_path_navigation_server[0m
+[9.323s] [100%] Built target auto_path_navigation_server
+[9.333s] Invoked command in '/home/kth/robot_dev/nav_server/build/auto_path_navigation_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/nav_server/build/auto_path_navigation_server -- -j12 -l12
+[9.340s] Invoking command in '/home/kth/robot_dev/nav_server/build/auto_path_navigation_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/nav_server/build/auto_path_navigation_server
+[9.346s] -- Install configuration: ""
+[9.347s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/lib/auto_path_navigation_server/auto_path_navigation_server
+[9.351s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/nav_server/install/auto_path_navigation_server/lib/auto_path_navigation_server/auto_path_navigation_server" to ""
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/include/
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/include//auto_path_navigation_server
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/include//auto_path_navigation_server/auto_path_navigation_server.hpp
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/package_run_dependencies/auto_path_navigation_server
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/parent_prefix_path/auto_path_navigation_server
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/ament_prefix_path.sh
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/ament_prefix_path.dsv
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/path.sh
+[9.351s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/environment/path.dsv
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.bash
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.sh
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.zsh
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/local_setup.dsv
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/package.dsv
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/ament_index/resource_index/packages/auto_path_navigation_server
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/cmake/auto_path_navigation_serverConfig.cmake
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/cmake/auto_path_navigation_serverConfig-version.cmake
+[9.352s] -- Installing: /home/kth/robot_dev/nav_server/install/auto_path_navigation_server/share/auto_path_navigation_server/package.xml
+[9.354s] Invoked command in '/home/kth/robot_dev/nav_server/build/auto_path_navigation_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/nav_server/build/auto_path_navigation_server

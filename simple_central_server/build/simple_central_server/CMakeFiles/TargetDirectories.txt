@@ -1,0 +1,10 @@
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/uninstall.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/simple_central_server_uninstall.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/simple_central_server.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/test.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/edit_cache.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/rebuild_cache.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/list_install_components.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/install.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/install/local.dir
+/home/kth/robot_dev/simple_central_server/build/simple_central_server/CMakeFiles/install/strip.dir
