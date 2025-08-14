@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000555] (-) JobUnselected: {'identifier': 'control_interfaces'}
+[0.000585] (robot_navigator) JobQueued: {'identifier': 'robot_navigator', 'dependencies': OrderedDict()}
+[0.000603] (robot_navigator) JobStarted: {'identifier': 'robot_navigator'}
+[0.007780] (robot_navigator) JobProgress: {'identifier': 'robot_navigator', 'progress': 'cmake'}
+[0.008376] (robot_navigator) JobProgress: {'identifier': 'robot_navigator', 'progress': 'build'}
+[0.008899] (robot_navigator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kth/robot_dev/robot_navigator/build/robot_navigator', '--', '-j12', '-l12'], 'cwd': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2733-11-kth-GP75-Leopard-10SEK_TIME14708978', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'POWERLINE_COMMAND': 'oh-my-posh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2257', 'SYSTEMD_EXEC_PID': '2733', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '24415', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kth/robot_dev/robot_navigator/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:24881', 'POSH_SESSION_ID': '5cd2fcdf-4fff-4ffc-be52-f502931e8997', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2701,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2701', 'INVOCATION_ID': '921896e3d3cf41f68858fc660c5041cd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/kth/robot_dev/robot_navigator/install/robot_navigator:/home/kth/robot_dev/robot_navigator/install/control_interfaces', 'ROS_DOMAIN_ID': '22', 'TERMINATOR_UUID': 'urn:uuid:c6375071-c1c9-4e79-bc82-52d7de5ba316', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kth/robot_dev/robot_navigator/install/robot_navigator:/home/kth/robot_dev/robot_navigator/install/control_interfaces:/opt/ros/jazzy'}), 'shell': False}
+[0.055246] (robot_navigator) StdoutLine: {'line': b'[ 40%] Built target obstacle_detector\n'}
+[0.062717] (robot_navigator) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o\x1b[0m\n'}
+[0.099936] (-) TimerEvent: {}
+[0.200168] (-) TimerEvent: {}
+[0.300449] (-) TimerEvent: {}
+[0.400723] (-) TimerEvent: {}
+[0.500967] (-) TimerEvent: {}
+[0.601212] (-) TimerEvent: {}
+[0.701463] (-) TimerEvent: {}
+[0.801713] (-) TimerEvent: {}
+[0.901971] (-) TimerEvent: {}
+[1.002217] (-) TimerEvent: {}
+[1.102454] (-) TimerEvent: {}
+[1.202705] (-) TimerEvent: {}
+[1.302958] (-) TimerEvent: {}
+[1.403210] (-) TimerEvent: {}
+[1.503456] (-) TimerEvent: {}
+[1.603703] (-) TimerEvent: {}
+[1.703953] (-) TimerEvent: {}
+[1.804306] (-) TimerEvent: {}
+[1.904521] (-) TimerEvent: {}
+[2.004755] (-) TimerEvent: {}
+[2.105002] (-) TimerEvent: {}
+[2.205280] (-) TimerEvent: {}
+[2.305489] (-) TimerEvent: {}
+[2.405737] (-) TimerEvent: {}
+[2.505983] (-) TimerEvent: {}
+[2.606233] (-) TimerEvent: {}
+[2.706487] (-) TimerEvent: {}
+[2.806737] (-) TimerEvent: {}
+[2.907002] (-) TimerEvent: {}
+[3.007281] (-) TimerEvent: {}
+[3.107490] (-) TimerEvent: {}
+[3.207753] (-) TimerEvent: {}
+[3.307996] (-) TimerEvent: {}
+[3.408240] (-) TimerEvent: {}
+[3.508483] (-) TimerEvent: {}
+[3.608728] (-) TimerEvent: {}
+[3.708974] (-) TimerEvent: {}
+[3.809231] (-) TimerEvent: {}
+[3.909475] (-) TimerEvent: {}
+[4.009711] (-) TimerEvent: {}
+[4.109962] (-) TimerEvent: {}
+[4.210207] (-) TimerEvent: {}
+[4.310455] (-) TimerEvent: {}
+[4.410720] (-) TimerEvent: {}
+[4.510966] (-) TimerEvent: {}
+[4.611212] (-) TimerEvent: {}
+[4.711460] (-) TimerEvent: {}
+[4.811714] (-) TimerEvent: {}
+[4.911958] (-) TimerEvent: {}
+[5.012202] (-) TimerEvent: {}
+[5.112449] (-) TimerEvent: {}
+[5.212700] (-) TimerEvent: {}
+[5.312949] (-) TimerEvent: {}
+[5.413240] (-) TimerEvent: {}
+[5.513542] (-) TimerEvent: {}
+[5.613795] (-) TimerEvent: {}
+[5.714045] (-) TimerEvent: {}
+[5.814315] (-) TimerEvent: {}
+[5.914562] (-) TimerEvent: {}
+[6.014820] (-) TimerEvent: {}
+[6.115069] (-) TimerEvent: {}
+[6.215289] (-) TimerEvent: {}
+[6.315530] (-) TimerEvent: {}
+[6.415778] (-) TimerEvent: {}
+[6.516018] (-) TimerEvent: {}
+[6.616282] (-) TimerEvent: {}
+[6.716525] (-) TimerEvent: {}
+[6.816789] (-) TimerEvent: {}
+[6.917039] (-) TimerEvent: {}
+[7.017281] (-) TimerEvent: {}
+[7.117526] (-) TimerEvent: {}
+[7.217774] (-) TimerEvent: {}
+[7.318049] (-) TimerEvent: {}
+[7.418336] (-) TimerEvent: {}
+[7.518579] (-) TimerEvent: {}
+[7.618824] (-) TimerEvent: {}
+[7.719073] (-) TimerEvent: {}
+[7.819353] (-) TimerEvent: {}
+[7.919607] (-) TimerEvent: {}
+[8.019875] (-) TimerEvent: {}
+[8.120123] (-) TimerEvent: {}
+[8.220415] (-) TimerEvent: {}
+[8.320676] (-) TimerEvent: {}
+[8.420987] (-) TimerEvent: {}
+[8.521237] (-) TimerEvent: {}
+[8.621505] (-) TimerEvent: {}
+[8.721777] (-) TimerEvent: {}
+[8.822022] (-) TimerEvent: {}
+[8.922265] (-) TimerEvent: {}
+[9.022510] (-) TimerEvent: {}
+[9.122760] (-) TimerEvent: {}
+[9.223026] (-) TimerEvent: {}
+[9.323267] (-) TimerEvent: {}
+[9.423514] (-) TimerEvent: {}
+[9.523779] (-) TimerEvent: {}
+[9.624049] (-) TimerEvent: {}
+[9.724333] (-) TimerEvent: {}
+[9.824582] (-) TimerEvent: {}
+[9.924833] (-) TimerEvent: {}
+[10.025073] (-) TimerEvent: {}
+[10.125356] (-) TimerEvent: {}
+[10.225595] (-) TimerEvent: {}
+[10.325834] (-) TimerEvent: {}
+[10.426090] (-) TimerEvent: {}
+[10.526353] (-) TimerEvent: {}
+[10.626590] (-) TimerEvent: {}
+[10.726827] (-) TimerEvent: {}
+[10.827066] (-) TimerEvent: {}
+[10.927322] (-) TimerEvent: {}
+[11.027576] (-) TimerEvent: {}
+[11.127830] (-) TimerEvent: {}
+[11.228082] (-) TimerEvent: {}
+[11.328358] (-) TimerEvent: {}
+[11.428607] (-) TimerEvent: {}
+[11.528887] (-) TimerEvent: {}
+[11.629147] (-) TimerEvent: {}
+[11.729444] (-) TimerEvent: {}
+[11.829692] (-) TimerEvent: {}
+[11.929952] (-) TimerEvent: {}
+[12.030217] (-) TimerEvent: {}
+[12.130469] (-) TimerEvent: {}
+[12.230706] (-) TimerEvent: {}
+[12.330942] (-) TimerEvent: {}
+[12.431189] (-) TimerEvent: {}
+[12.531440] (-) TimerEvent: {}
+[12.631714] (-) TimerEvent: {}
+[12.731935] (-) TimerEvent: {}
+[12.832201] (-) TimerEvent: {}
+[12.932454] (-) TimerEvent: {}
+[13.032691] (-) TimerEvent: {}
+[13.132929] (-) TimerEvent: {}
+[13.233194] (-) TimerEvent: {}
+[13.333445] (-) TimerEvent: {}
+[13.433682] (-) TimerEvent: {}
+[13.533912] (-) TimerEvent: {}
+[13.634149] (-) TimerEvent: {}
+[13.734392] (-) TimerEvent: {}
+[13.834630] (-) TimerEvent: {}
+[13.934868] (-) TimerEvent: {}
+[14.035105] (-) TimerEvent: {}
+[14.135367] (-) TimerEvent: {}
+[14.235617] (-) TimerEvent: {}
+[14.335855] (-) TimerEvent: {}
+[14.436092] (-) TimerEvent: {}
+[14.536309] (-) TimerEvent: {}
+[14.636550] (-) TimerEvent: {}
+[14.736791] (-) TimerEvent: {}
+[14.837031] (-) TimerEvent: {}
+[14.937329] (-) TimerEvent: {}
+[15.037590] (-) TimerEvent: {}
+[15.137828] (-) TimerEvent: {}
+[15.238066] (-) TimerEvent: {}
+[15.338349] (-) TimerEvent: {}
+[15.438588] (-) TimerEvent: {}
+[15.538826] (-) TimerEvent: {}
+[15.639062] (-) TimerEvent: {}
+[15.739327] (-) TimerEvent: {}
+[15.839566] (-) TimerEvent: {}
+[15.939804] (-) TimerEvent: {}
+[16.040044] (-) TimerEvent: {}
+[16.140289] (-) TimerEvent: {}
+[16.240526] (-) TimerEvent: {}
+[16.340763] (-) TimerEvent: {}
+[16.441008] (-) TimerEvent: {}
+[16.541271] (-) TimerEvent: {}
+[16.641510] (-) TimerEvent: {}
+[16.741773] (-) TimerEvent: {}
+[16.842012] (-) TimerEvent: {}
+[16.942248] (-) TimerEvent: {}
+[17.042489] (-) TimerEvent: {}
+[17.142725] (-) TimerEvent: {}
+[17.242972] (-) TimerEvent: {}
+[17.343210] (-) TimerEvent: {}
+[17.443470] (-) TimerEvent: {}
+[17.543705] (-) TimerEvent: {}
+[17.643950] (-) TimerEvent: {}
+[17.744216] (-) TimerEvent: {}
+[17.844469] (-) TimerEvent: {}
+[17.944714] (-) TimerEvent: {}
+[18.044951] (-) TimerEvent: {}
+[18.145214] (-) TimerEvent: {}
+[18.245463] (-) TimerEvent: {}
+[18.345704] (-) TimerEvent: {}
+[18.445940] (-) TimerEvent: {}
+[18.546199] (-) TimerEvent: {}
+[18.646446] (-) TimerEvent: {}
+[18.746813] (-) TimerEvent: {}
+[18.847098] (-) TimerEvent: {}
+[18.947369] (-) TimerEvent: {}
+[19.047617] (-) TimerEvent: {}
+[19.147848] (-) TimerEvent: {}
+[19.248101] (-) TimerEvent: {}
+[19.348403] (-) TimerEvent: {}
+[19.448615] (-) TimerEvent: {}
+[19.548861] (-) TimerEvent: {}
+[19.649123] (-) TimerEvent: {}
+[19.749417] (-) TimerEvent: {}
+[19.849661] (-) TimerEvent: {}
+[19.949919] (-) TimerEvent: {}
+[20.050209] (-) TimerEvent: {}
+[20.150478] (-) TimerEvent: {}
+[20.250736] (-) TimerEvent: {}
+[20.350999] (-) TimerEvent: {}
+[20.451259] (-) TimerEvent: {}
+[20.541355] (robot_navigator) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable robot_navigator\x1b[0m\n'}
+[20.551342] (-) TimerEvent: {}
+[20.651572] (-) TimerEvent: {}
+[20.751820] (-) TimerEvent: {}
+[20.852099] (-) TimerEvent: {}
+[20.952383] (-) TimerEvent: {}
+[21.052640] (-) TimerEvent: {}
+[21.152898] (-) TimerEvent: {}
+[21.253148] (-) TimerEvent: {}
+[21.353438] (-) TimerEvent: {}
+[21.388139] (robot_navigator) StdoutLine: {'line': b'[100%] Built target robot_navigator\n'}
+[21.398144] (robot_navigator) CommandEnded: {'returncode': 0}
+[21.398742] (robot_navigator) JobProgress: {'identifier': 'robot_navigator', 'progress': 'install'}
+[21.405784] (robot_navigator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kth/robot_dev/robot_navigator/build/robot_navigator'], 'cwd': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2733-11-kth-GP75-Leopard-10SEK_TIME14708978', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'POWERLINE_COMMAND': 'oh-my-posh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2257', 'SYSTEMD_EXEC_PID': '2733', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '24415', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kth/robot_dev/robot_navigator/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:24881', 'POSH_SESSION_ID': '5cd2fcdf-4fff-4ffc-be52-f502931e8997', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2701,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2701', 'INVOCATION_ID': '921896e3d3cf41f68858fc660c5041cd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/kth/robot_dev/robot_navigator/install/robot_navigator:/home/kth/robot_dev/robot_navigator/install/control_interfaces', 'ROS_DOMAIN_ID': '22', 'TERMINATOR_UUID': 'urn:uuid:c6375071-c1c9-4e79-bc82-52d7de5ba316', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kth/robot_dev/robot_navigator/install/robot_navigator:/home/kth/robot_dev/robot_navigator/install/control_interfaces:/opt/ros/jazzy'}), 'shell': False}
+[21.411672] (robot_navigator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.411884] (robot_navigator) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/robot_navigator\n'}
+[21.425125] (robot_navigator) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/robot_navigator" to ""\n'}
+[21.425491] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/obstacle_detector\n'}
+[21.425773] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/package_run_dependencies/robot_navigator\n'}
+[21.425890] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/parent_prefix_path/robot_navigator\n'}
+[21.425968] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.sh\n'}
+[21.426074] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.dsv\n'}
+[21.426159] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.sh\n'}
+[21.426258] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.dsv\n'}
+[21.426310] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.bash\n'}
+[21.426361] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.sh\n'}
+[21.426411] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.zsh\n'}
+[21.426461] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.dsv\n'}
+[21.426510] (robot_navigator) StdoutLine: {'line': b'-- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.dsv\n'}
+[21.426561] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/packages/robot_navigator\n'}
+[21.426611] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig.cmake\n'}
+[21.426661] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig-version.cmake\n'}
+[21.426711] (robot_navigator) StdoutLine: {'line': b'-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.xml\n'}
+[21.427432] (robot_navigator) CommandEnded: {'returncode': 0}
+[21.438754] (robot_navigator) JobEnded: {'identifier': 'robot_navigator', 'rc': 0}
+[21.439312] (-) EventReactorShutdown: {}

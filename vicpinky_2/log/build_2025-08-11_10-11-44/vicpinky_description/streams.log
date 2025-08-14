@@ -1,0 +1,38 @@
+[0.205s] Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_description -- -j12 -l12
+[0.251s] Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_description -- -j12 -l12
+[0.252s] Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_description
+[0.259s] -- Install configuration: ""
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/rviz
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/rviz/urdf_config.rviz
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf/robot_gazebo.xacro
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf/lidar.xacro
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf/robot_core.xacro
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf/camera.xacro
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf/robot.urdf.xacro
+[0.259s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf/inertial_macros.xacro
+[0.260s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/urdf/gazebo_control.xacro
+[0.260s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/launch
+[0.260s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/launch/display.launch.xml
+[0.260s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/launch/upload.launch.xml
+[0.260s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/meshes
+[0.260s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/meshes/collision
+[0.260s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/meshes/collision/lidar.stl
+[0.261s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/meshes/visual
+[0.262s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/meshes/visual/lidar.dae
+[0.262s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/ament_index/resource_index/package_run_dependencies/vicpinky_description
+[0.262s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/ament_index/resource_index/parent_prefix_path/vicpinky_description
+[0.262s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/environment/ament_prefix_path.sh
+[0.263s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/environment/ament_prefix_path.dsv
+[0.263s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/environment/path.sh
+[0.263s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/environment/path.dsv
+[0.263s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/local_setup.bash
+[0.263s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/local_setup.sh
+[0.263s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/local_setup.zsh
+[0.263s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/local_setup.dsv
+[0.263s] -- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.dsv
+[0.264s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/ament_index/resource_index/packages/vicpinky_description
+[0.264s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/cmake/vicpinky_descriptionConfig.cmake
+[0.264s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/cmake/vicpinky_descriptionConfig-version.cmake
+[0.264s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.xml
+[0.269s] Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_description

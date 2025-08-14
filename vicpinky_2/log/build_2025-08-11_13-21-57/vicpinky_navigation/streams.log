@@ -1,0 +1,52 @@
+[0.161s] Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation -- -j12 -l12
+[0.211s] [ 50%] [32mBuilding CXX object CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o[0m
+[7.258s] [100%] [32m[1mLinking CXX shared library libgraph_planner.so[0m
+[7.632s] [100%] Built target graph_planner
+[7.642s] Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation -- -j12 -l12
+[7.643s] Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation
+[7.648s] -- Install configuration: ""
+[7.648s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/plugin_description.xml
+[7.648s] -- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib/libgraph_planner.so
+[7.651s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib/libgraph_planner.so" to ""
+[7.651s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/launch
+[7.651s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/launch/navigation_launch.xml
+[7.651s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/launch/localization_launch.xml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/launch/map_view.launch.xml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/launch/bringup_launch.xml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/launch/nav2_view.launch.xml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/launch/map_building.launch.xml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/map
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/map/factory.pgm
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/map/pinklab.yaml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/map/pinklab.png
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/map/factory.yaml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/map/factory2.pgm
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/map/factory2.yaml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/params
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/params/nav2_params.yaml
+[7.652s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/params/mapper_params.yaml
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/rviz
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/rviz/map_view.rviz
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/rviz/nav2_view.rviz
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/plugin_description.xml
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/environment/library_path.sh
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/environment/library_path.dsv
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/ament_index/resource_index/package_run_dependencies/vicpinky_navigation
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/ament_index/resource_index/parent_prefix_path/vicpinky_navigation
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/environment/ament_prefix_path.sh
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/environment/ament_prefix_path.dsv
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/environment/path.sh
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/environment/path.dsv
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/local_setup.bash
+[7.653s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/local_setup.sh
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/local_setup.zsh
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/local_setup.dsv
+[7.654s] -- Installing: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.dsv
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/ament_index/resource_index/packages/vicpinky_navigation
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/ament_index/resource_index/nav2_core__pluginlib__plugin/vicpinky_navigation
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/cmake/vicpinky_navigationConfig.cmake
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/cmake/vicpinky_navigationConfig-version.cmake
+[7.654s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.xml
+[7.655s] Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation

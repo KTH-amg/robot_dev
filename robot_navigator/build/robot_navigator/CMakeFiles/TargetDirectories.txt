@@ -1,6 +1,7 @@
 /home/kth/robot_dev/robot_navigator/build/robot_navigator/CMakeFiles/uninstall.dir
 /home/kth/robot_dev/robot_navigator/build/robot_navigator/CMakeFiles/robot_navigator_uninstall.dir
 /home/kth/robot_dev/robot_navigator/build/robot_navigator/CMakeFiles/robot_navigator.dir
+/home/kth/robot_dev/robot_navigator/build/robot_navigator/CMakeFiles/obstacle_detector.dir
 /home/kth/robot_dev/robot_navigator/build/robot_navigator/CMakeFiles/test.dir
 /home/kth/robot_dev/robot_navigator/build/robot_navigator/CMakeFiles/edit_cache.dir
 /home/kth/robot_dev/robot_navigator/build/robot_navigator/CMakeFiles/rebuild_cache.dir

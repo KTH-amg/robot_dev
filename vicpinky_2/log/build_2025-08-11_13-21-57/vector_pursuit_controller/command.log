@@ -1,0 +1,4 @@
+Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller -- -j12 -l12
+Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller -- -j12 -l12
+Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller
+Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller

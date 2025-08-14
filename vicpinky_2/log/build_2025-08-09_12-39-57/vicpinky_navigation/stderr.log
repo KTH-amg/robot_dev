@@ -1,0 +1,64 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:13[m[K:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path graph_planner::GraphPlanner::[01;32m[KcreatePlan[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, std::function<bool()>)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  133 |         [01;35m[K"✅ 경로 생성 완료: %d개 노드, %d개 차단된 엣지"[m[K,
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  134 |         [32m[Knodes_seq.size()[m[K, blocked_edges.size());
+      |         [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[K|[m[K
+      |                       [32m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  133 |         "✅ 경로 생성 완료: [01;36m[K%d[m[K개 노드, %d개 차단된 엣지",
+      |                             [01;36m[K~^[m[K
+      |                              [01;36m[K|[m[K
+      |                              [01;36m[Kint[m[K
+      |                             [32m[K%ld[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::set<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  133 |         [01;35m[K"✅ 경로 생성 완료: %d개 노드, %d개 차단된 엣지"[m[K,
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  134 |         nodes_seq.size(), [32m[Kblocked_edges.size()[m[K);
+      |                           [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[K|[m[K
+      |                                             [32m[Kstd::set<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:41:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  133 |         "✅ 경로 생성 완료: %d개 노드, [01;36m[K%d[m[K개 차단된 엣지",
+      |                                        [01;36m[K~^[m[K
+      |                                         [01;36m[K|[m[K
+      |                                         [01;36m[Kint[m[K
+      |                                        [32m[K%ld[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvoid graph_planner::GraphPlanner::[01;32m[KscanCallback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:175:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+  175 |             transform = [01;31m[Ktf_buffer_[m[K->lookupTransform("map", "base_link", tf2::TimePointZero);
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvoid graph_planner::GraphPlanner::[01;32m[KupdateObstacles[m[K()[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:232:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  232 |       RCLCPP_INFO(node_->get_logger(), [01;35m[K"🔄 %d개 장애물 타임아웃으로 제거됨"[m[K, [32m[Kto_remove.size()[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                                                            [32m[K|[m[K
+      |                                                                                            [32m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:232:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  232 |       RCLCPP_INFO(node_->get_logger(), "🔄 [01;36m[K%d[m[K개 장애물 타임아웃으로 제거됨", to_remove.size());
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kint[m[K
+      |                                            [32m[K%ld[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kbool graph_planner::GraphPlanner::[01;32m[KplanWithLidarObstacles[m[K(const std::string&, const std::string&, const std::set<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >&, std::function<bool()>, std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:374:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  374 |       [01;35m[K"다익스트라 완료: 시작=%s, 목표=%s, 총 비용=%.2f, 노드 수=%d"[m[K,
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  375 |       start_node.c_str(), goal_node.c_str(), dist[goal_node], [32m[Kseq.size()[m[K);
+      |                                                               [32m[K~~~~~~~~~~[m[K
+      |                                                                       [32m[K|[m[K
+      |                                                                       [32m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:374:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  374 |       "다익스트라 완료: 시작=%s, 목표=%s, 총 비용=%.2f, 노드 수=[01;36m[K%d[m[K",
+      |                                                                 [01;36m[K~^[m[K
+      |                                                                  [01;36m[K|[m[K
+      |                                                                  [01;36m[Kint[m[K
+      |                                                                 [32m[K%ld[m[K
+gmake[2]: *** [CMakeFiles/graph_planner.dir/build.make:76: CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

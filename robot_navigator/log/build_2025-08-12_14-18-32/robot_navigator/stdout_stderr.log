@@ -1,0 +1,23 @@
+[ 40%] Built target obstacle_detector
+[ 60%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable robot_navigator[0m
+[100%] Built target robot_navigator
+-- Install configuration: ""
+-- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/robot_navigator
+-- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/robot_navigator" to ""
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/obstacle_detector
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/package_run_dependencies/robot_navigator
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/parent_prefix_path/robot_navigator
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.sh
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.dsv
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.bash
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.sh
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.zsh
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.dsv
+-- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.dsv
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/packages/robot_navigator
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig.cmake
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig-version.cmake
+-- Up-to-date: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.xml

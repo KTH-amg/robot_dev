@@ -1,0 +1,3 @@
+[ 40%] Built target obstacle_detector
+[ 60%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/main.cpp.o[0m

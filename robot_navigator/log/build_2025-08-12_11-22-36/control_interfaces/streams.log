@@ -1,0 +1,370 @@
+[0.008s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/robot_navigator/src/control_interfaces -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/robot_navigator/install/control_interfaces
+[0.020s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.132s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.217s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.771s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.476s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.573s] -- Found PythonExtra: /usr/bin/python3  
+[1.888s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.915s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.935s] -- Added test 'lint_cmake' to check CMake code style
+[1.936s] -- Added test 'xmllint' to check XML markup files
+[1.939s] -- Configuring done (1.9s)
+[1.968s] -- Generating done (0.0s)
+[1.977s] -- Build files have been written to: /home/kth/robot_dev/robot_navigator/build/control_interfaces
+[1.982s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/robot_navigator/src/control_interfaces -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/robot_navigator/install/control_interfaces
+[1.983s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/control_interfaces -- -j12 -l12
+[2.021s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.028s] [  1%] Built target ament_cmake_python_copy_control_interfaces
+[2.216s] running egg_info
+[2.217s] creating control_interfaces.egg-info
+[2.221s] [  1%] Built target control_interfaces__rosidl_generator_type_description
+[2.229s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.237s] writing control_interfaces.egg-info/PKG-INFO
+[2.237s] writing dependency_links to control_interfaces.egg-info/dependency_links.txt
+[2.237s] writing top-level names to control_interfaces.egg-info/top_level.txt
+[2.237s] writing manifest file 'control_interfaces.egg-info/SOURCES.txt'
+[2.237s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.296s] reading manifest file 'control_interfaces.egg-info/SOURCES.txt'
+[2.297s] writing manifest file 'control_interfaces.egg-info/SOURCES.txt'
+[2.318s] [  4%] Built target ament_cmake_python_build_control_interfaces_egg
+[2.684s] [  4%] Built target control_interfaces__cpp
+[2.791s] [ 12%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/event_handle__functions.c.o[0m
+[2.791s] [ 12%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/msg/detail/detected_obstacle__type_support.c.o[0m
+[2.791s] [ 12%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/event_handle__type_support.c.o[0m
+[2.791s] [ 12%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/msg/detail/detected_obstacle__description.c.o[0m
+[2.791s] [ 12%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/event_handle__description.c.o[0m
+[2.791s] [ 13%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/navigate_handle__description.c.o[0m
+[2.791s] [ 12%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/msg/detail/detected_obstacle__functions.c.o[0m
+[2.791s] [ 14%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/navigate_handle__functions.c.o[0m
+[2.791s] [ 16%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/navigate_handle__type_support.c.o[0m
+[2.791s] [ 17%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/track_handle__description.c.o[0m
+[2.791s] [ 18%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/track_handle__type_support.c.o[0m
+[2.791s] [ 20%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/track_handle__functions.c.o[0m
+[2.828s] [ 21%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/detect_handle__description.c.o[0m
+[2.836s] [ 22%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/detect_handle__functions.c.o[0m
+[2.837s] [ 24%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/detect_handle__type_support.c.o[0m
+[2.906s] [ 25%] [32m[1mLinking C shared library libcontrol_interfaces__rosidl_generator_c.so[0m
+[2.936s] [ 25%] Built target control_interfaces__rosidl_generator_c
+[2.943s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.944s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.944s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.944s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.944s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.944s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.258s] [ 35%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/track_handle__type_support.cpp.o[0m
+[3.259s] [ 39%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/msg/detected_obstacle__type_support.cpp.o[0m
+[3.260s] [ 39%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/event_handle__type_support.cpp.o[0m
+[3.260s] [ 39%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/navigate_handle__type_support.cpp.o[0m
+[3.261s] [ 40%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/msg/detected_obstacle__type_support.cpp.o[0m
+[3.261s] [ 41%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/navigate_handle__type_support.cpp.o[0m
+[3.262s] [ 43%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/detect_handle__type_support.cpp.o[0m
+[3.266s] [ 44%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/event_handle__type_support.cpp.o[0m
+[3.314s] [ 45%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/detect_handle__type_support.cpp.o[0m
+[3.315s] [ 47%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/track_handle__type_support.cpp.o[0m
+[3.321s] [ 48%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_c.so[0m
+[3.372s] [ 48%] Built target control_interfaces__rosidl_typesupport_c
+[3.384s] [ 52%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/track_handle__type_support.cpp.o[0m
+[3.384s] [ 52%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/msg/detail/detected_obstacle__type_support.cpp.o[0m
+[3.384s] [ 52%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/event_handle__type_support.cpp.o[0m
+[3.384s] [ 54%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/navigate_handle__type_support.cpp.o[0m
+[3.510s] [ 55%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/detected_obstacle__type_support.c.o[0m
+[3.562s] [ 56%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/event_handle__type_support.c.o[0m
+[3.632s] [ 58%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/navigate_handle__type_support.c.o[0m
+[3.682s] [ 59%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/track_handle__type_support.c.o[0m
+[3.705s] [ 60%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/detect_handle__type_support.c.o[0m
+[3.721s] [ 62%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/msg/detail/dds_fastrtps/detected_obstacle__type_support.cpp.o[0m
+[3.745s] [ 63%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/event_handle__type_support.cpp.o[0m
+[3.770s] [ 64%] [32m[1mLinking C shared library libcontrol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.797s] [ 66%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/navigate_handle__type_support.cpp.o[0m
+[3.807s] [ 67%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/track_handle__type_support.cpp.o[0m
+[3.808s] [ 67%] Built target control_interfaces__rosidl_typesupport_introspection_c
+[3.817s] [ 68%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/detect_handle__type_support.cpp.o[0m
+[3.820s] [ 70%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/detect_handle__type_support.cpp.o[0m
+[3.838s] [ 71%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/msg/detail/detected_obstacle__type_support_c.cpp.o[0m
+[3.838s] [ 72%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/event_handle__type_support_c.cpp.o[0m
+[3.875s] [ 74%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_cpp.so[0m
+[3.959s] [ 75%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/navigate_handle__type_support_c.cpp.o[0m
+[3.968s] [ 77%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/track_handle__type_support_c.cpp.o[0m
+[3.975s] [ 78%] [32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/detect_handle__type_support_c.cpp.o[0m
+[3.994s] [ 78%] Built target control_interfaces__rosidl_typesupport_cpp
+[4.392s] [ 79%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.471s] [ 79%] Built target control_interfaces__rosidl_typesupport_introspection_cpp
+[4.629s] [ 81%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.630s] [ 82%] [32m[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.689s] [ 82%] Built target control_interfaces__rosidl_typesupport_fastrtps_c
+[4.693s] [ 82%] Built target control_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.707s] [ 82%] Built target control_interfaces
+[4.723s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.436s] [ 83%] Built target control_interfaces__py
+[5.452s] [ 89%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_event_handle_s.c.o[0m
+[5.453s] [ 89%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_detect_handle_s.c.o[0m
+[5.453s] [ 89%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_navigate_handle_s.c.o[0m
+[5.453s] [ 89%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/msg/_detected_obstacle_s.c.o[0m
+[5.453s] [ 90%] [32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_track_handle_s.c.o[0m
+[5.573s] [ 91%] [32m[1mLinking C shared library libcontrol_interfaces__rosidl_generator_py.so[0m
+[5.604s] [ 91%] Built target control_interfaces__rosidl_generator_py
+[5.620s] [ 95%] [32mBuilding C object CMakeFiles/control_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.620s] [ 95%] [32mBuilding C object CMakeFiles/control_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.620s] [ 95%] [32mBuilding C object CMakeFiles/control_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.727s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_c.so[0m
+[5.727s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.727s] [100%] [32m[1mLinking C shared module rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.751s] [100%] Built target control_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.751s] [100%] Built target control_interfaces_s__rosidl_typesupport_c
+[5.751s] [100%] Built target control_interfaces_s__rosidl_typesupport_introspection_c
+[5.760s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/control_interfaces -- -j12 -l12
+[5.768s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/robot_navigator/build/control_interfaces
+[5.774s] -- Install configuration: ""
+[5.774s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/ament_index/resource_index/rosidl_interfaces/control_interfaces
+[5.774s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/msg/DetectedObstacle.json
+[5.774s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/EventHandle.json
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/NavigateHandle.json
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/TrackHandle.json
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/DetectHandle.json
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__functions.c
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__type_support.h
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__type_support.c
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__functions.c
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__struct.h
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__type_support.h
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__struct.h
+[5.775s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__description.c
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__struct.h
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__description.c
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__description.c
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__type_support.h
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__functions.h
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__type_support.c
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__type_support.c
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__description.c
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__functions.h
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__functions.h
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__struct.h
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__type_support.h
+[5.776s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__functions.c
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__type_support.c
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__functions.c
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__functions.h
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/event_handle.h
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/track_handle.h
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/navigate_handle.h
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detect_handle.h
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detected_obstacle.h
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__functions.h
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__description.c
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__functions.c
+[5.777s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__type_support.h
+[5.778s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__struct.h
+[5.778s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__type_support.c
+[5.778s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.778s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/library_path.sh
+[5.778s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/library_path.dsv
+[5.778s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_c.so
+[5.778s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_c.so" to ""
+[5.778s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces
+[5.778s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[5.778s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[5.778s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__rosidl_typesupport_fastrtps_c.h
+[5.779s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__rosidl_typesupport_fastrtps_c.h
+[5.779s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__rosidl_typesupport_fastrtps_c.h
+[5.779s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__rosidl_typesupport_fastrtps_c.h
+[5.779s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[5.779s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.779s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[5.779s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__rosidl_typesupport_fastrtps_c.h
+[5.779s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.779s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.779s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces
+[5.779s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[5.779s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[5.779s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__type_support.c
+[5.779s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__rosidl_typesupport_introspection_c.h
+[5.780s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__type_support.c
+[5.780s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__rosidl_typesupport_introspection_c.h
+[5.780s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__type_support.c
+[5.780s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__rosidl_typesupport_introspection_c.h
+[5.780s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__type_support.c
+[5.780s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__rosidl_typesupport_introspection_c.h
+[5.780s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[5.780s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.780s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[5.780s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__rosidl_typesupport_introspection_c.h
+[5.780s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__type_support.c
+[5.780s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_c.so
+[5.780s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.780s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_c.so
+[5.780s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_c.so" to ""
+[5.781s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces
+[5.781s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detect_handle.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/event_handle.hpp
+[5.781s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__struct.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__type_support.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__builder.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__traits.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__traits.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__struct.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__type_support.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__type_support.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__type_support.hpp
+[5.781s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__builder.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__traits.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__builder.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__struct.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__builder.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__traits.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__struct.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/track_handle.hpp
+[5.782s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/navigate_handle.hpp
+[5.782s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[5.783s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__traits.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__struct.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__type_support.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__builder.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detected_obstacle.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.783s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces
+[5.783s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[5.783s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__rosidl_typesupport_fastrtps_cpp.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__rosidl_typesupport_fastrtps_cpp.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/dds_fastrtps
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__rosidl_typesupport_fastrtps_cpp.hpp
+[5.783s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__rosidl_typesupport_fastrtps_cpp.hpp
+[5.784s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[5.784s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/dds_fastrtps
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.784s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.784s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces
+[5.784s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[5.784s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__type_support.cpp
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__type_support.cpp
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__rosidl_typesupport_introspection_cpp.hpp
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__rosidl_typesupport_introspection_cpp.hpp
+[5.784s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__type_support.cpp
+[5.785s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__type_support.cpp
+[5.785s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__rosidl_typesupport_introspection_cpp.hpp
+[5.785s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__rosidl_typesupport_introspection_cpp.hpp
+[5.785s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[5.785s] -- Up-to-date: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[5.785s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__rosidl_typesupport_introspection_cpp.hpp
+[5.785s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/detected_obstacle__type_support.cpp
+[5.785s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.785s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.785s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_cpp.so
+[5.786s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/pythonpath.sh
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/pythonpath.dsv
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces-0.0.0-py3.12.egg-info
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_c.c
+[5.786s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_detect_handle_s.c
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_navigate_handle.py
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_track_handle_s.c
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_track_handle.py
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_detect_handle.py
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_event_handle.py
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_event_handle_s.c
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_navigate_handle_s.c
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/__init__.py
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/msg
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/msg/_detected_obstacle_s.c
+[5.787s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/msg/_detected_obstacle.py
+[5.788s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/msg/__init__.py
+[5.788s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.so
+[5.788s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.788s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/__init__.py
+[5.788s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.788s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.827s] Listing '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces'...
+[5.827s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/__init__.py'...
+[5.827s] Listing '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/msg'...
+[5.828s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/msg/__init__.py'...
+[5.828s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/msg/_detected_obstacle.py'...
+[5.828s] Listing '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv'...
+[5.828s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/__init__.py'...
+[5.828s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_detect_handle.py'...
+[5.828s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_event_handle.py'...
+[5.828s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_navigate_handle.py'...
+[5.828s] Compiling '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/srv/_track_handle.py'...
+[5.832s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.832s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.832s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.832s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.so
+[5.833s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_py.so
+[5.833s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_py.so" to ""
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/msg/DetectedObstacle.idl
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/EventHandle.idl
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/NavigateHandle.idl
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/TrackHandle.idl
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/DetectHandle.idl
+[5.833s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/msg/DetectedObstacle.msg
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/EventHandle.srv
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/NavigateHandle.srv
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/TrackHandle.srv
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/srv/DetectHandle.srv
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/ament_index/resource_index/package_run_dependencies/control_interfaces
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/ament_index/resource_index/parent_prefix_path/control_interfaces
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.sh
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.dsv
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/path.sh
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/environment/path.dsv
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/local_setup.bash
+[5.834s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/local_setup.sh
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/local_setup.zsh
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/local_setup.dsv
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/package.dsv
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/ament_index/resource_index/packages/control_interfaces
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport.cmake
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.835s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cppExport.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.836s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig-version.cmake
+[5.837s] -- Installing: /home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/package.xml
+[5.839s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/robot_navigator/build/control_interfaces

@@ -1,0 +1,22 @@
+[0.010s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/robot_navigator -- -j12 -l12
+[0.054s] [ 40%] Built target obstacle_detector
+[0.060s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o[0m
+[2.269s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In member function ‘[01m[Kvoid RobotNavigator::[01;32m[KtrackEventHandle[m[K(std::shared_ptr<control_interfaces::srv::TrackHandle_Request_<std::allocator<void> > >, std::shared_ptr<control_interfaces::srv::TrackHandle_Response_<std::allocator<void> > >)[m[K’:
+[2.269s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:523:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_sib[m[K’ was not declared in this scope; did you mean ‘[01m[Kroll_h[m[K’?
+[2.269s]   523 |             tf2::Matrix3x3(q).getRPY([01;31m[Kroll_sib[m[K, pitch_sib, robot_heading);
+[2.269s]       |                                      [01;31m[K^~~~~~~~[m[K
+[2.269s]       |                                      [32m[Kroll_h[m[K
+[2.273s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:523:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kpitch_sib[m[K’ was not declared in this scope; did you mean ‘[01m[Kpitch_h[m[K’?
+[2.273s]   523 |             tf2::Matrix3x3(q).getRPY(roll_sib, [01;31m[Kpitch_sib[m[K, robot_heading);
+[2.273s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[2.274s]       |                                                [32m[Kpitch_h[m[K
+[2.274s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:522:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch_h[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.274s]   522 |             double [01;35m[Kpitch_h[m[K, roll_h;
+[2.274s]       |                    [01;35m[K^~~~~~~[m[K
+[2.274s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:522:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll_h[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.274s]   522 |             double pitch_h, [01;35m[Kroll_h[m[K;
+[2.274s]       |                             [01;35m[K^~~~~~[m[K
+[8.113s] gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Error 1
+[8.114s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Error 2
+[8.114s] gmake: *** [Makefile:146: all] Error 2
+[8.116s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/robot_navigator -- -j12 -l12

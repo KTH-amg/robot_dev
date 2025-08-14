@@ -1,0 +1,10 @@
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In member function ‘[01m[Kvoid RobotNavigator::[01;32m[KtrackEventHandle[m[K(std::shared_ptr<control_interfaces::srv::TrackHandle_Request_<std::allocator<void> > >, std::shared_ptr<control_interfaces::srv::TrackHandle_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:522:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_sib[m[K’ was not declared in this scope
+  522 |             tf2::Matrix3x3(q).getRPY([01;31m[Kroll_sib[m[K, pitch_sib, robot_heading);
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:522:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kpitch_sib[m[K’ was not declared in this scope
+  522 |             tf2::Matrix3x3(q).getRPY(roll_sib, [01;31m[Kpitch_sib[m[K, robot_heading);
+      |                                                [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

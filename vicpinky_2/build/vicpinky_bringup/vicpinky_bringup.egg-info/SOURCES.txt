@@ -11,7 +11,7 @@ setup.py
 config/laser_filter.yaml
 launch/bringup.launch.xml
 launch/gazebo_bringup.launch.xml
-launch/gazebo_bringup_2.launch.xml
+launch/gazebo_multi_spwan.launch.xml
 resource/vicpinky_bringup
 vicpinky_bringup/__init__.py
 vicpinky_bringup/bringup.py

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_interfaces/srv/DetectHandle_Response",
+      "fields": [
+        {
+          "name": "flag",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_interfaces/srv/DetectHandle_Response",
+      "hash_string": "RIHS01_2bba318b39c93c714b42c320dfb213bf0af34bc87137f39e8a6ec019cb38a0b5"
+    }
+  ]
+}

@@ -197,6 +197,43 @@ vicpinky_navigation_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vicpinky_navigation_uninstall.dir/build.make CMakeFiles/vicpinky_navigation_uninstall.dir/build
 .PHONY : vicpinky_navigation_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named graph_planner
+
+# Build rule for target.
+graph_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graph_planner
+.PHONY : graph_planner
+
+# fast build rule for target.
+graph_planner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_planner.dir/build.make CMakeFiles/graph_planner.dir/build
+.PHONY : graph_planner/fast
+
+src/graph_planner.o: src/graph_planner.cpp.o
+.PHONY : src/graph_planner.o
+
+# target to build an object file
+src/graph_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_planner.dir/build.make CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o
+.PHONY : src/graph_planner.cpp.o
+
+src/graph_planner.i: src/graph_planner.cpp.i
+.PHONY : src/graph_planner.i
+
+# target to preprocess a source file
+src/graph_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_planner.dir/build.make CMakeFiles/graph_planner.dir/src/graph_planner.cpp.i
+.PHONY : src/graph_planner.cpp.i
+
+src/graph_planner.s: src/graph_planner.cpp.s
+.PHONY : src/graph_planner.s
+
+# target to generate assembly for a file
+src/graph_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_planner.dir/build.make CMakeFiles/graph_planner.dir/src/graph_planner.cpp.s
+.PHONY : src/graph_planner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... vicpinky_navigation_uninstall"
+	@echo "... graph_planner"
+	@echo "... src/graph_planner.o"
+	@echo "... src/graph_planner.i"
+	@echo "... src/graph_planner.s"
 .PHONY : help
 
 

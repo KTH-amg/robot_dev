@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "control_interfaces__py",
+		"source" : "/home/kth/robot_dev/robot_navigator/build/control_interfaces/control_interfaces__py"
+	}
+}

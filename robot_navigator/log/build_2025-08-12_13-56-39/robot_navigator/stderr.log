@@ -1,0 +1,23 @@
+In file included from [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:1[m[K:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:142:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  142 |     void globalPathCallback(const nav_msgs::msg::Path::SharedPtr msg[01;31m[K)[m[K
+      |                                                                     [01;31m[K^[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:188:103:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  188 |     geometry_msgs::msg::PoseStamped getNextWaypointFromPath(const geometry_msgs::msg::Point& robot_pos[01;31m[K)[m[K
+      |                                                                                                       [01;31m[K^[m[K
+      |                                                                                                        [32m[K;[m[K
+In file included from [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/main.cpp:1[m[K:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:142:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  142 |     void globalPathCallback(const nav_msgs::msg::Path::SharedPtr msg[01;31m[K)[m[K
+      |                                                                     [01;31m[K^[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:188:103:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  188 |     geometry_msgs::msg::PoseStamped getNextWaypointFromPath(const geometry_msgs::msg::Point& robot_pos[01;31m[K)[m[K
+      |                                                                                                       [01;31m[K^[m[K
+      |                                                                                                        [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:90: CMakeFiles/robot_navigator.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,121 @@
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpairstd[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kpair[m[K’?
+  155 |     const std::set<std::[01;31m[Kpairstd[m[K::string,std::string> & hard_block_edges,
+      |                         [01;31m[K^~~~~~~[m[K
+      |                         [32m[Kpair[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  155 |     const std::set<std::pairstd::string,std::string[01;31m[K>[m[K & hard_block_edges,
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpairstd[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kpair[m[K’?
+  155 |     const std::set<std::[01;31m[Kpairstd[m[K::string,std::string> & hard_block_edges,
+      |                         [01;31m[K^~~~~~~[m[K
+      |                         [32m[Kpair[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  155 |     const std::set<std::pairstd::string,std::string[01;31m[K>[m[K & hard_block_edges,
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpairstd[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kpair[m[K’?
+  155 |     const std::set<std::[01;31m[Kpairstd[m[K::string,std::string> & hard_block_edges,
+      |                         [01;31m[K^~~~~~~[m[K
+      |                         [32m[Kpair[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  155 |     const std::set<std::pairstd::string,std::string[01;31m[K>[m[K & hard_block_edges,
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:11:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  155 |     const [01;31m[Kstd[m[K::set<std::pairstd::string,std::string> & hard_block_edges,
+      |           [01;31m[K^~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pairstd[m[K’ has not been declared
+  155 |     const std::set<std::[01;31m[Kpairstd[m[K::string,std::string> & hard_block_edges,
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:155:5:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::set[m[K’; template placeholder not permitted in parameter
+  155 |     [01;31m[Kconst[m[K std::set<std::pairstd::string,std::string> & hard_block_edges,
+      |     [01;31m[K^~~~~[m[K
+      |          [32m[K<>[m[K
+In file included from [01m[K/usr/include/c++/13/set:63[m[K,
+                 from [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:10[m[K:
+[01m[K/usr/include/c++/13/bits/stl_set.h:96:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> class std::set[m[K’ declared here
+   96 |     class [01;36m[Kset[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:157:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::vectorstd[m[K’ has not been declared
+  157 |     std::[01;31m[Kvectorstd[m[K::string & out_nodes_seq)
+      |          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:157:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+  157 |     std::vectorstd::string [01;31m[K&[m[K out_nodes_seq)
+      |                            [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:238:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kpairstd[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kpair[m[K’?
+  238 |   std::vector<std::[01;31m[Kpairstd[m[K::string,std::string>
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [32m[Kpair[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:238:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  238 |   std::vector<std::pairstd::string,std::string[01;31m[K>[m[K
+      |                                               [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:238:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kvectorstd[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Kvector[m[K’?
+  239 |     checkPathSegmentsCollision(const std::[01;31m[Kvectorstd[m[K::string & nodes_seq)
+      |                                           [01;31m[K^~~~~~~~~[m[K
+      |                                           [32m[Kvector[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:61:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  239 |     checkPathSegmentsCollision(const std::vectorstd::string [01;31m[K&[m[K nodes_seq)
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  239 |     checkPathSegmentsCollision[34m[K([m[Kconst std::vectorstd::string[01;31m[K [m[K[32m[K&[m[K nodes_seq)
+      |                               [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+      |                                                            [32m[K)[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  239 |     checkPathSegmentsCollision(const std::vectorstd::string [01;31m[K&[m[K nodes_seq)
+      |                                                             [01;31m[K^[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:63:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_seq[m[K’ does not name a type
+  239 |     checkPathSegmentsCollision(const std::vectorstd::string & [01;31m[Knodes_seq[m[K)
+      |                                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:423:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+  423 |   [01;31m[Ksensor_msgs[m[K::msg::LaserScan::SharedPtr last_scan_;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path graph_planner::GraphPlanner::[01;32m[KcreatePlan[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, std::function<bool()>)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:113:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kempty[m[K’ in ‘[01m[Kcollisions[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  113 |       if (collisions.[01;31m[Kempty[m[K()) {
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:127:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+  127 |       for (auto & seg : [01;31m[Kcollisions[m[K) {
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:127:25:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/13/string:53[m[K,
+                 from [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:2[m[K:
+[01m[K/usr/include/c++/13/bits/range_access.h:114:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+  114 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+      |                                     [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/filesystem:50[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp:41[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:56[m[K,
+                 from [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:17[m[K:
+[01m[K/usr/include/c++/13/bits/fs_dir.h:607:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::filesystem::__cxx11::begin[m[K’
+  607 |   [01;36m[Kbegin[m[K(recursive_directory_iterator __iter) noexcept
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:127:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope
+  127 |       for (auto & seg : [01;31m[Kcollisions[m[K) {
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:127:25:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/usr/include/c++/13/bits/range_access.h:116:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::end[m[K’
+  116 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+      |                                     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/fs_dir.h:612:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::filesystem::__cxx11::end[m[K’
+  612 |   [01;36m[Kend[m[K(recursive_directory_iterator) noexcept
+      |   [01;36m[K^~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kbool graph_planner::GraphPlanner::[01;32m[KplanWithEdgeFiltering[m[K(...)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:186:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khard_block_edges[m[K’ was not declared in this scope
+  186 |         if ([01;31m[Khard_block_edges[m[K.count({cur.u, v})) continue;
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:232:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_nodes_seq[m[K’ was not declared in this scope
+  232 |     [01;31m[Kout_nodes_seq[m[K = std::move(seq);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:157:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstring[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  157 |     [01;35m[Kstd::vectorstd::string[m[K & out_nodes_seq)
+      |     [01;35m[K~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/graph_planner.dir/build.make:76: CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

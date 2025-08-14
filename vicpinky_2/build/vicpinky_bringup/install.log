@@ -8,7 +8,7 @@
 /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/package.xml
 /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/launch/bringup.launch.xml
 /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/launch/gazebo_bringup.launch.xml
-/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/launch/gazebo_bringup_2.launch.xml
+/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/launch/gazebo_multi_spwan.launch.xml
 /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/config/laser_filter.yaml
 /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages/vicpinky_bringup-0.0.0-py3.12.egg-info/entry_points.txt
 /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages/vicpinky_bringup-0.0.0-py3.12.egg-info/requires.txt

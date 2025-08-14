@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_interfaces/srv/EventHandle_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_interfaces/srv/EventHandle_Response",
+      "hash_string": "RIHS01_d7ad1316d5bda8a7cba78cbfcfe305ad9c9c7aa09b15dc8f69b7264bc50291b8"
+    }
+  ]
+}

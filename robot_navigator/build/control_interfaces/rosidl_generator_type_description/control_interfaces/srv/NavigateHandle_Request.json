@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_interfaces/srv/NavigateHandle_Request",
+      "fields": [
+        {
+          "name": "event_type",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "command",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_interfaces/srv/NavigateHandle_Request",
+      "hash_string": "RIHS01_6001587d73c60384efe164d4f66e802a0587118ac4ee391f2b5074375230c091"
+    }
+  ]
+}

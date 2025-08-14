@@ -1,0 +1,10 @@
+[ 40%] Built target obstacle_detector
+[ 60%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o[0m
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In member function ‘[01m[Kbool RobotNavigator::[01;32m[KsendNavigationGoal[m[K(const std::string&, bool)[m[K’:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:711:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<RobotInfo, __gnu_cxx::_S_atomic, false, false>::element_type = struct RobotInfo[m[K’ {aka ‘[01m[Kstruct RobotInfo[m[K’} has no member named ‘[01m[Kstart_point[m[K’; did you mean ‘[01m[Kstart_point_set[m[K’?
+  711 |     if (waypoints_.find(waypoint_name) == robot_info_->[01;31m[Kstart_point[m[K) {
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                                        [32m[Kstart_point_set[m[K
+gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

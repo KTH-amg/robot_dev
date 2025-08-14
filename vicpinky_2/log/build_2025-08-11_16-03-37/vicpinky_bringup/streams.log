@@ -1,0 +1,21 @@
+[0.760s] Invoking command in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/build install --record /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/install.log --single-version-externally-managed install_data
+[1.003s] running egg_info
+[1.023s] writing ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/PKG-INFO
+[1.023s] writing dependency_links to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/dependency_links.txt
+[1.024s] writing entry points to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/entry_points.txt
+[1.024s] writing requirements to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/requires.txt
+[1.024s] writing top-level names to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/top_level.txt
+[1.062s] reading manifest file '../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/SOURCES.txt'
+[1.063s] writing manifest file '../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/SOURCES.txt'
+[1.063s] running build
+[1.063s] running build_py
+[1.063s] running install
+[1.068s] running install_lib
+[1.088s] running install_data
+[1.088s] running install_egg_info
+[1.109s] removing '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages/vicpinky_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.109s] Copying ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info to /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages/vicpinky_bringup-0.0.0-py3.12.egg-info
+[1.110s] running install_scripts
+[1.232s] Installing bringup script to /home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/vicpinky_bringup
+[1.232s] writing list of installed files to '/home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/install.log'
+[1.250s] Invoked command in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/build install --record /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/install.log --single-version-externally-managed install_data

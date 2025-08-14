@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/robot_navigator -- -j12 -l12
+[0.055s] [ 40%] Built target obstacle_detector
+[0.058s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o[0m
+[2.367s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In member function ‘[01m[Kvoid RobotNavigator::[01;32m[KcallDetectObstacle[m[K(float, float)[m[K’:
+[2.367s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:1100:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(RobotNavigator*, rclcpp::Client<control_interfaces::srv::DetectHandle>::FutureAndRequestId&)[m[K’
+[2.367s]  1100 |     if ([01;31m[Krclcpp::spin_until_future_complete(this, future)[m[K == rclcpp::FutureReturnCode::SUCCESS) {
+[2.367s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.367s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[2.367s]                  from [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:4[m[K,
+[2.367s]                  from [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:1[m[K:
+[2.367s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:118:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::[01;32m[Kspin_until_future_complete[m[K(node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+[2.368s]   118 | [01;36m[Kspin_until_future_complete[m[K(
+[2.368s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.368s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:118:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.368s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:1100:44:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(RobotNavigator*)this[m[K’ (type ‘[01m[KRobotNavigator*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[2.368s]  1100 |     if (rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, future) == rclcpp::FutureReturnCode::SUCCESS) {
+[2.368s]       |                                            [01;36m[K^~~~[m[K
+[2.368s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::[01;32m[Kspin_until_future_complete[m[K(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+[2.368s]   132 | [01;36m[Kspin_until_future_complete[m[K(
+[2.368s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.368s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.368s] [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:1100:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KRobotNavigator*[m[K’
+[2.368s]  1100 |     if ([01;36m[Krclcpp::spin_until_future_complete(this, future)[m[K == rclcpp::FutureReturnCode::SUCCESS) {
+[2.368s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[7.807s] gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Error 1
+[7.808s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Error 2
+[7.808s] gmake: *** [Makefile:146: all] Error 2
+[7.810s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/robot_navigator -- -j12 -l12

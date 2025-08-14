@@ -1,0 +1,422 @@
+[0.097s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.097s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79bbd538ef30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79bbd538ec60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79bbd538ec60>>, mixin_verb=('build',))
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kth/robot_dev/vicpinky_2'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector_pursuit_controller) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vector_pursuit_controller' with type 'ros.ament_cmake' and name 'vector_pursuit_controller'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_bringup' with type 'ros.ament_python' and name 'vicpinky_bringup'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_description' with type 'ros.ament_cmake' and name 'vicpinky_description'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_gazebo' with type 'ros.ament_cmake' and name 'vicpinky_gazebo'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_navigation' with type 'ros.ament_cmake' and name 'vicpinky_navigation'
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/jazzy
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vector_pursuit_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'vector_pursuit_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller', 'merge_install': False, 'path': '/home/kth/robot_dev/vicpinky_2/src/vector_pursuit_controller', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup', 'merge_install': False, 'path': '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description', 'merge_install': False, 'path': '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_description', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo', 'merge_install': False, 'path': '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation', 'merge_install': False, 'path': '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.230s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kth/robot_dev/vicpinky_2/src/vector_pursuit_controller' with build type 'ament_cmake'
+[0.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kth/robot_dev/vicpinky_2/src/vector_pursuit_controller'
+[0.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_bringup' with build type 'ament_python'
+[0.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_bringup', 'ament_prefix_path')
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/hook/ament_prefix_path.ps1'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/hook/ament_prefix_path.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/hook/ament_prefix_path.sh'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_description' with build type 'ament_cmake'
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_description'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_gazebo' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_gazebo'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation' with build type 'ament_cmake'
+[0.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation'
+[0.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller -- -j12 -l12
+[0.458s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_bringup'
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_description -- -j12 -l12
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo -- -j12 -l12
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller -- -j12 -l12
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation -- -j12 -l12
+[0.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vector_pursuit_controller)
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller' for CMake module files
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller' for CMake config files
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('vector_pursuit_controller', 'cmake_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/cmake_prefix_path.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/cmake_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/cmake_prefix_path.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/lib'
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('vector_pursuit_controller', 'ld_library_path_lib')
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/ld_library_path_lib.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/ld_library_path_lib.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/ld_library_path_lib.sh'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/bin'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/lib/pkgconfig/vector_pursuit_controller.pc'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/lib/python3.12/site-packages'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/bin'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.bash'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.zsh'
+[0.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/colcon-core/packages/vector_pursuit_controller)
+[0.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vector_pursuit_controller)
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller' for CMake module files
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller' for CMake config files
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('vector_pursuit_controller', 'cmake_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/cmake_prefix_path.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/cmake_prefix_path.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/lib'
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('vector_pursuit_controller', 'ld_library_path_lib')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/ld_library_path_lib.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/ld_library_path_lib.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/hook/ld_library_path_lib.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/bin'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/lib/pkgconfig/vector_pursuit_controller.pc'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/lib/python3.12/site-packages'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/bin'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.bash'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/colcon-core/packages/vector_pursuit_controller)
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_description -- -j12 -l12
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_description
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo -- -j12 -l12
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo
+[0.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_description)
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description' for CMake module files
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description' for CMake config files
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_description
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_description', 'cmake_prefix_path')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.sh'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/bin'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/lib/pkgconfig/vicpinky_description.pc'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/lib/python3.12/site-packages'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/bin'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.sh'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.bash'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.zsh'
+[0.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/colcon-core/packages/vicpinky_description)
+[0.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_description)
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description' for CMake module files
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description' for CMake config files
+[0.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_description', 'cmake_prefix_path')
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.sh'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/bin'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/lib/pkgconfig/vicpinky_description.pc'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/lib/python3.12/site-packages'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/bin'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.dsv'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.sh'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.bash'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/vicpinky_description/package.zsh'
+[0.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vicpinky_description/share/colcon-core/packages/vicpinky_description)
+[0.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_gazebo)
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo' for CMake module files
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_gazebo
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo' for CMake config files
+[0.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_gazebo', 'cmake_prefix_path')
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.sh'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/bin'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/lib/pkgconfig/vicpinky_gazebo.pc'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/lib/python3.12/site-packages'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/bin'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.bash'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.zsh'
+[0.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/colcon-core/packages/vicpinky_gazebo)
+[0.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_gazebo)
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo' for CMake module files
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo' for CMake config files
+[0.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_gazebo', 'cmake_prefix_path')
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.ps1'
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.dsv'
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.sh'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/bin'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/lib/pkgconfig/vicpinky_gazebo.pc'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/lib/python3.12/site-packages'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/bin'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.ps1'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.sh'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.bash'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/vicpinky_gazebo/package.zsh'
+[0.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vicpinky_gazebo/share/colcon-core/packages/vicpinky_gazebo)
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/build install --record /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/install.log --single-version-externally-managed install_data
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup' for CMake module files
+[1.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/build install --record /home/kth/robot_dev/vicpinky_2/build/vicpinky_bringup/install.log --single-version-externally-managed install_data
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup' for CMake config files
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/bin'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/pkgconfig/vicpinky_bringup.pc'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/lib/python3.12/site-packages'
+[1.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_bringup', 'pythonpath')
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/hook/pythonpath.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/hook/pythonpath.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/hook/pythonpath.sh'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/bin'
+[1.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_bringup)
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/package.ps1'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/package.dsv'
+[1.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/package.sh'
+[1.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/package.bash'
+[1.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/vicpinky_bringup/package.zsh'
+[1.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup/share/colcon-core/packages/vicpinky_bringup)
+[11.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation -- -j12 -l12
+[11.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation
+[11.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_navigation)
+[11.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation
+[11.753s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation' for CMake module files
+[11.753s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation' for CMake config files
+[11.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_navigation', 'cmake_prefix_path')
+[11.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.ps1'
+[11.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.dsv'
+[11.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.sh'
+[11.755s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib'
+[11.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_navigation', 'ld_library_path_lib')
+[11.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/ld_library_path_lib.ps1'
+[11.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/ld_library_path_lib.dsv'
+[11.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/ld_library_path_lib.sh'
+[11.757s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/bin'
+[11.757s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib/pkgconfig/vicpinky_navigation.pc'
+[11.757s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib/python3.12/site-packages'
+[11.757s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/bin'
+[11.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.ps1'
+[11.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.dsv'
+[11.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.sh'
+[11.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.bash'
+[11.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.zsh'
+[11.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/colcon-core/packages/vicpinky_navigation)
+[11.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_navigation)
+[11.760s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation' for CMake module files
+[11.760s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation' for CMake config files
+[11.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_navigation', 'cmake_prefix_path')
+[11.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.ps1'
+[11.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.dsv'
+[11.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.sh'
+[11.762s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib'
+[11.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_navigation', 'ld_library_path_lib')
+[11.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/ld_library_path_lib.ps1'
+[11.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/ld_library_path_lib.dsv'
+[11.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/hook/ld_library_path_lib.sh'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/bin'
+[11.764s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib/pkgconfig/vicpinky_navigation.pc'
+[11.764s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/lib/python3.12/site-packages'
+[11.764s] Level 1:colcon.colcon_core.environment:checking '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/bin'
+[11.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.ps1'
+[11.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.dsv'
+[11.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.sh'
+[11.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.bash'
+[11.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/vicpinky_navigation/package.zsh'
+[11.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kth/robot_dev/vicpinky_2/install/vicpinky_navigation/share/colcon-core/packages/vicpinky_navigation)
+[11.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.767s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.772s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.783s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.784s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kth/robot_dev/vicpinky_2/install/local_setup.ps1'
+[11.784s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kth/robot_dev/vicpinky_2/install/_local_setup_util_ps1.py'
+[11.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kth/robot_dev/vicpinky_2/install/setup.ps1'
+[11.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kth/robot_dev/vicpinky_2/install/local_setup.sh'
+[11.786s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kth/robot_dev/vicpinky_2/install/_local_setup_util_sh.py'
+[11.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kth/robot_dev/vicpinky_2/install/setup.sh'
+[11.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kth/robot_dev/vicpinky_2/install/local_setup.bash'
+[11.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kth/robot_dev/vicpinky_2/install/setup.bash'
+[11.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kth/robot_dev/vicpinky_2/install/local_setup.zsh'
+[11.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kth/robot_dev/vicpinky_2/install/setup.zsh'

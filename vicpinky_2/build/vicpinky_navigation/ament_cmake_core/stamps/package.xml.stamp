@@ -12,11 +12,23 @@
   <depend>slam_toolbox</depend>
   <depend>navigation2</depend>
   <depend>nav2_bringup</depend>
+  <depend>nav2_core</depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>nav2_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>pluginlib</depend>
+  <depend>sensor_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
+    <nav2_core plugin="${prefix}/plugin_description.xml" />
   </export>
 </package>

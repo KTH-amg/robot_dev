@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_interfaces/srv/EventHandle_Request",
+      "fields": [
+        {
+          "name": "event_type",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_interfaces/srv/EventHandle_Request",
+      "hash_string": "RIHS01_fb787d5c59432c381fbf1e2330adbaa8cdaaad68c2f875f01d2b3adfe7e2f52e"
+    }
+  ]
+}

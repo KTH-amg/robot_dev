@@ -1,0 +1,10 @@
+{
+  "package_name": "control_interfaces",
+  "non_idl_tuples": [
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces:msg/DetectedObstacle.msg",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces:srv/EventHandle.srv",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces:srv/NavigateHandle.srv",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces:srv/TrackHandle.srv",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces:srv/DetectHandle.srv"
+  ]
+}

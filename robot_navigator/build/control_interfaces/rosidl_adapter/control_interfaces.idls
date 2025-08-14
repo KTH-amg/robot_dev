@@ -1,0 +1,5 @@
+/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:msg/DetectedObstacle.idl
+/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/EventHandle.idl
+/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/NavigateHandle.idl
+/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/TrackHandle.idl
+/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/DetectHandle.idl

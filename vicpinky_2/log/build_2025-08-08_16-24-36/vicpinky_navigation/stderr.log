@@ -1,0 +1,25 @@
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > > graph_planner::GraphPlanner::[01;32m[KcheckPathSegmentsCollision[m[K(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:240:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpairstd[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kpair[m[K’?
+  240 |     std::vector<std::[01;31m[Kpairstd[m[K::string,std::string> coll;
+      |                      [01;31m[K^~~~~~~[m[K
+      |                      [32m[Kpair[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:240:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  240 |     std::vector<std::pairstd::string,std::string[01;31m[K>[m[K coll;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:240:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:241:38:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kcoll[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >[m[K’
+  241 |     if (nodes_seq.size() < 2) return [01;31m[Kcoll[m[K;
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kint[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:267:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace_back[m[K’ in ‘[01m[Kcoll[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  267 |         coll.[01;31m[Kemplace_back[m[K(u, v);
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:270:12:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kcoll[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >[m[K’
+  270 |     return [01;31m[Kcoll[m[K;
+      |            [01;31m[K^~~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kint[m[K
+gmake[2]: *** [CMakeFiles/graph_planner.dir/build.make:76: CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -792,6 +792,11 @@ CMakeFiles/robot_navigator.dir/src/main.cpp.o: \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/int32.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__type_support.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
@@ -803,6 +808,12 @@ CMakeFiles/robot_navigator.dir/src/main.cpp.o: \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp \
@@ -812,6 +823,9 @@ CMakeFiles/robot_navigator.dir/src/main.cpp.o: \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp \
  /opt/ros/jazzy/include/tf2/tf2/visibility_control.h \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.h \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /opt/ros/jazzy/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
@@ -884,7 +898,70 @@ CMakeFiles/robot_navigator.dir/src/main.cpp.o: \
  /opt/ros/jazzy/include/tf2/tf2/time.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
- /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp \
  /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.h \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.h \
+ /opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/transform_storage.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.h \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.h \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/event_handle.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__struct.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__builder.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__traits.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/event_handle__type_support.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/track_handle.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__struct.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__builder.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__traits.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/track_handle__type_support.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/navigate_handle.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__struct.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__builder.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__traits.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/navigate_handle__type_support.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detect_handle.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__struct.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__builder.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__traits.hpp \
+ /home/kth/robot_dev/robot_navigator/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/detect_handle__type_support.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /usr/include/c++/13/regex /usr/include/c++/13/bitset \
+ /usr/include/c++/13/stack /usr/include/c++/13/bits/stl_stack.h \
+ /usr/include/c++/13/bits/regex_constants.h \
+ /usr/include/c++/13/bits/regex_error.h \
+ /usr/include/c++/13/bits/regex_automaton.h \
+ /usr/include/c++/13/bits/regex_automaton.tcc \
+ /usr/include/c++/13/bits/regex_scanner.h \
+ /usr/include/c++/13/bits/regex_scanner.tcc \
+ /usr/include/c++/13/bits/regex_compiler.h \
+ /usr/include/c++/13/bits/regex_compiler.tcc \
+ /usr/include/c++/13/bits/regex.h /usr/include/c++/13/bits/regex.tcc \
+ /usr/include/c++/13/bits/regex_executor.h \
+ /usr/include/c++/13/bits/regex_executor.tcc

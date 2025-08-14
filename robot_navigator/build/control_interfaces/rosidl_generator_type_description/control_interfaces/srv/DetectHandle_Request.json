@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "control_interfaces/srv/DetectHandle_Request",
+      "fields": [
+        {
+          "name": "left_angle",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "right_angle",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "control_interfaces/srv/DetectHandle_Request",
+      "hash_string": "RIHS01_26d798864ad5ec6bc3bb4a2e77ce4d98b0d1922ae25d765edbff495763074b73"
+    }
+  ]
+}

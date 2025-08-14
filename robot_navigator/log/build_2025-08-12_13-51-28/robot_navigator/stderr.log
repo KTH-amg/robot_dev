@@ -1,0 +1,85 @@
+In file included from [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:1[m[K:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+   72 |     [01;31m[Knav_msgs[m[K::msg::Path current_global_path_;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/main.cpp:1[m[K:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+   72 |     [01;31m[Knav_msgs[m[K::msg::Path current_global_path_;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Knav2_msgs[m[K’?
+   82 |     rclcpp::Subscription<[01;31m[Knav_msgs[m[K::msg::Path>::SharedPtr global_path_sub_;
+      |                          [01;31m[K^~~~~~~~[m[K
+      |                          [32m[Knav2_msgs[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 |     rclcpp::Subscription<nav_msgs::msg::Path[01;31m[K>[m[K::SharedPtr global_path_sub_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Knav2_msgs[m[K’?
+   82 |     rclcpp::Subscription<[01;31m[Knav_msgs[m[K::msg::Path>::SharedPtr global_path_sub_;
+      |                          [01;31m[K^~~~~~~~[m[K
+      |                          [32m[Knav2_msgs[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 |     rclcpp::Subscription<nav_msgs::msg::Path[01;31m[K>[m[K::SharedPtr global_path_sub_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::[01;31m[KSharedPtr[m[K global_path_sub_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::[01;31m[KSharedPtr[m[K global_path_sub_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_path_sub_[m[K’ does not name a type
+   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::SharedPtr [01;31m[Kglobal_path_sub_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_path_sub_[m[K’ does not name a type
+   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::SharedPtr [01;31m[Kglobal_path_sub_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In member function ‘[01m[Kvoid RobotNavigator::[01;32m[KinitializeRobotSubscribers[m[K()[m[K’:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_path_sub_[m[K’ was not declared in this scope
+  103 |     [01;31m[Kglobal_path_sub_[m[K = this->create_subscription<nav_msgs::msg::Path>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:103:50:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Knav2_msgs[m[K’?
+  103 |     global_path_sub_ = this->create_subscription<[01;31m[Knav_msgs[m[K::msg::Path>(
+      |                                                  [01;31m[K^~~~~~~~[m[K
+      |                                                  [32m[Knav2_msgs[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:103:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  103 |     global_path_sub_ = this->[01;31m[Kcreate_subscription<nav_msgs::msg::Path>[m[K(
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:105:36:[m[K [01;31m[Kerror: [m[K‘[01m[KglobalPathCallback[m[K’ is not a member of ‘[01m[KRobotNavigator[m[K’
+  105 |         std::bind(&RobotNavigator::[01;31m[KglobalPathCallback[m[K, this, _1));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K At global scope:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:31:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+  858 | void globalPathCallback(const [01;31m[Knav_msgs[m[K::msg::Path::SharedPtr msg)
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  858 | void globalPathCallback(const nav_msgs::msg[01;31m[K::[m[KPath::SharedPtr msg)
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  858 | void globalPathCallback[34m[K([m[Kconst nav_msgs::msg[01;31m[K:[m[K[32m[K:[m[KPath::SharedPtr msg)
+      |                        [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:44:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+  858 | void globalPathCallback(const nav_msgs::msg[01;31m[K::[m[KPath::SharedPtr msg)
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::PoseStamped[01;32m[K getNextWaypointFromPath[m[K(const geometry_msgs::msg::Point&)[m[K’:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:867:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_global_path_[m[K’ was not declared in this scope
+  867 |     if ([01;31m[Kcurrent_global_path_[m[K.poses.empty()) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:875:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_global_path_[m[K’ was not declared in this scope
+  875 |     for (size_t i = 0; i < [01;31m[Kcurrent_global_path_[m[K.poses.size(); ++i) {
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:887:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_global_path_[m[K’ was not declared in this scope
+  887 |     size_t next_idx = std::min(closest_idx + 1, [01;31m[Kcurrent_global_path_[m[K.poses.size() - 1);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:90: CMakeFiles/robot_navigator.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

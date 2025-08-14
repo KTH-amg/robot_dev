@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (-) JobUnselected: {'identifier': 'control_interfaces'}
+[0.000375] (robot_navigator) JobQueued: {'identifier': 'robot_navigator', 'dependencies': OrderedDict()}
+[0.000391] (robot_navigator) JobStarted: {'identifier': 'robot_navigator'}
+[0.006868] (robot_navigator) JobProgress: {'identifier': 'robot_navigator', 'progress': 'cmake'}
+[0.007160] (robot_navigator) Command: {'cmd': ['/usr/bin/cmake', '/home/kth/robot_dev/robot_navigator/src/robot_navigator', '-DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/robot_navigator/install/robot_navigator'], 'cwd': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2733-8-kth-GP75-Leopard-10SEK_TIME5529592', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'POWERLINE_COMMAND': 'oh-my-posh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2257', 'SYSTEMD_EXEC_PID': '2733', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '12635', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:24881', 'POSH_SESSION_ID': '868a1891-c942-45a0-873b-a5ca46ba4c3a', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2701,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2701', 'INVOCATION_ID': '921896e3d3cf41f68858fc660c5041cd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_DOMAIN_ID': '22', 'TERMINATOR_UUID': 'urn:uuid:55e896f3-29e9-4e78-aa72-9dd7c395b49d', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.047133] (robot_navigator) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.086409] (robot_navigator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.097248] (robot_navigator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099767] (-) TimerEvent: {}
+[0.158314] (robot_navigator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.166194] (robot_navigator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.166323] (robot_navigator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.166727] (robot_navigator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.173215] (robot_navigator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199876] (-) TimerEvent: {}
+[0.245008] (robot_navigator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.252978] (robot_navigator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.253142] (robot_navigator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.253689] (robot_navigator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.256544] (robot_navigator) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299980] (-) TimerEvent: {}
+[0.369941] (robot_navigator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.400095] (-) TimerEvent: {}
+[0.459098] (robot_navigator) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.496630] (robot_navigator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.500189] (-) TimerEvent: {}
+[0.510229] (robot_navigator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.525363] (robot_navigator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541754] (robot_navigator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600299] (-) TimerEvent: {}
+[0.610677] (robot_navigator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.613523] (robot_navigator) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.673796] (robot_navigator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.689874] (robot_navigator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.700401] (-) TimerEvent: {}
+[0.708081] (robot_navigator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.773975] (robot_navigator) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.800502] (-) TimerEvent: {}
+[0.802975] (robot_navigator) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.826782] (robot_navigator) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.848122] (robot_navigator) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)\n'}
+[0.900610] (-) TimerEvent: {}
+[0.948695] (robot_navigator) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.953673] (robot_navigator) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.000733] (-) TimerEvent: {}
+[1.037170] (robot_navigator) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.051512] (robot_navigator) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.052565] (robot_navigator) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.052797] (robot_navigator) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.062638] (robot_navigator) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[1.062840] (robot_navigator) StderrLine: {'line': b'  By not providing "Findcontrol_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.062898] (robot_navigator) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.062954] (robot_navigator) StderrLine: {'line': b'  "control_interfaces", but CMake did not find one.\n'}
+[1.063007] (robot_navigator) StderrLine: {'line': b'\n'}
+[1.063059] (robot_navigator) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.063108] (robot_navigator) StderrLine: {'line': b'  "control_interfaces" with any of the following names:\n'}
+[1.063157] (robot_navigator) StderrLine: {'line': b'\n'}
+[1.063206] (robot_navigator) StderrLine: {'line': b'    control_interfacesConfig.cmake\n'}
+[1.063255] (robot_navigator) StderrLine: {'line': b'    control_interfaces-config.cmake\n'}
+[1.063304] (robot_navigator) StderrLine: {'line': b'\n'}
+[1.063354] (robot_navigator) StderrLine: {'line': b'  Add the installation prefix of "control_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.063403] (robot_navigator) StderrLine: {'line': b'  set "control_interfaces_DIR" to a directory containing one of the above\n'}
+[1.063452] (robot_navigator) StderrLine: {'line': b'  files.  If "control_interfaces" provides a separate development package or\n'}
+[1.063527] (robot_navigator) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.063590] (robot_navigator) StderrLine: {'line': b'\n'}
+[1.063639] (robot_navigator) StderrLine: {'line': b'\x1b[0m\n'}
+[1.063771] (robot_navigator) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.070345] (robot_navigator) CommandEnded: {'returncode': 1}
+[1.083996] (robot_navigator) JobEnded: {'identifier': 'robot_navigator', 'rc': 1}
+[1.094409] (-) EventReactorShutdown: {}

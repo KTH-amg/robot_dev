@@ -1,0 +1,21 @@
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In member function ‘[01m[Kvoid RobotNavigator::[01;32m[KinitializeRobotSubscribers[m[K()[m[K’:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:105:36:[m[K [01;31m[Kerror: [m[K‘[01m[KglobalPathCallback[m[K’ is not a member of ‘[01m[KRobotNavigator[m[K’
+  105 |         std::bind(&RobotNavigator::[01;31m[KglobalPathCallback[m[K, this, _1));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K globalPathCallback[m[K(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:860:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_global_path_[m[K’ was not declared in this scope
+  860 |     [01;31m[Kcurrent_global_path_[m[K = *msg;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::PoseStamped[01;32m[K getNextWaypointFromPath[m[K(const geometry_msgs::msg::Point&)[m[K’:
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:867:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_global_path_[m[K’ was not declared in this scope
+  867 |     if ([01;31m[Kcurrent_global_path_[m[K.poses.empty()) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:875:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_global_path_[m[K’ was not declared in this scope
+  875 |     for (size_t i = 0; i < [01;31m[Kcurrent_global_path_[m[K.poses.size(); ++i) {
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:887:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_global_path_[m[K’ was not declared in this scope
+  887 |     size_t next_idx = std::min(closest_idx + 1, [01;31m[Kcurrent_global_path_[m[K.poses.size() - 1);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

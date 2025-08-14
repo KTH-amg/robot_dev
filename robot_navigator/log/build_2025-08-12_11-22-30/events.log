@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (-) JobUnselected: {'identifier': 'robot_navigator'}
+[0.000440] (control_interfaces) JobQueued: {'identifier': 'control_interfaces', 'dependencies': OrderedDict()}
+[0.000457] (control_interfaces) JobStarted: {'identifier': 'control_interfaces'}
+[0.004415] (control_interfaces) JobProgress: {'identifier': 'control_interfaces', 'progress': 'cmake'}
+[0.004883] (control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/kth/robot_dev/robot_navigator/src/control_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/robot_navigator/install/control_interfaces'], 'cwd': '/home/kth/robot_dev/robot_navigator/build/control_interfaces', 'env': OrderedDict({'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2733-8-kth-GP75-Leopard-10SEK_TIME5529592', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'POWERLINE_COMMAND': 'oh-my-posh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2257', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '2733', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '12635', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'kth', 'POSH_SESSION_ID': '868a1891-c942-45a0-873b-a5ca46ba4c3a', 'JOURNAL_STREAM': '9:24881', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'USERNAME': 'kth', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '921896e3d3cf41f68858fc660c5041cd', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2701,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2701', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'TERMINATOR_UUID': 'urn:uuid:55e896f3-29e9-4e78-aa72-9dd7c395b49d', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/robot_navigator/build/control_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'COLCON': '1', 'VTE_VERSION': '7600', 'POSH_SHELL': 'fish', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+[0.042332] (control_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.082758] (control_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.093466] (control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099860] (-) TimerEvent: {}
+[0.150625] (control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.158171] (control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.158405] (control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.158711] (control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164731] (control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199986] (-) TimerEvent: {}
+[0.227448] (control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.235343] (control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.235551] (control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.235903] (control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.243838] (control_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.243955] (control_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.244017] (control_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.244070] (control_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.244121] (control_interfaces) StderrLine: {'line': b'\n'}
+[0.244172] (control_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.244222] (control_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.244315] (control_interfaces) StderrLine: {'line': b'\n'}
+[0.244364] (control_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.244413] (control_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.244463] (control_interfaces) StderrLine: {'line': b'\n'}
+[0.244512] (control_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.244561] (control_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.244610] (control_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.244658] (control_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.244707] (control_interfaces) StderrLine: {'line': b'\n'}
+[0.244755] (control_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.244804] (control_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.246421] (control_interfaces) CommandEnded: {'returncode': 1}
+[0.259953] (control_interfaces) JobEnded: {'identifier': 'control_interfaces', 'rc': 1}
+[0.270558] (-) EventReactorShutdown: {}

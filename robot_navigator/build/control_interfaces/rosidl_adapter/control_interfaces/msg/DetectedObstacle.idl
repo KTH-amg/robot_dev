@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_interfaces/msg/DetectedObstacle.msg
+// generated code does not contain a copyright notice
+
+
+module control_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "장애물 감지 정보 메시지" "\n"
+      "로봇이 라이다로 감지한 장애물의 위치 정보")
+    struct DetectedObstacle {
+      @verbatim (language="comment", text=
+        "장애물의 로컬 좌표계 위치 (미터)")
+      float x;
+
+      float y;
+
+      @verbatim (language="comment", text=
+        "장애물 방향 (도, 로봇 기준)")
+      float yaw;
+    };
+  };
+};

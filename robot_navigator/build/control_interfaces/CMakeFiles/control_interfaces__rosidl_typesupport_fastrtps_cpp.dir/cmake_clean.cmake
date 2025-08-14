@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/msg/detail/dds_fastrtps/detected_obstacle__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/msg/detail/dds_fastrtps/detected_obstacle__type_support.cpp.o.d"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/detect_handle__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/detect_handle__type_support.cpp.o.d"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/event_handle__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/event_handle__type_support.cpp.o.d"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/navigate_handle__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/navigate_handle__type_support.cpp.o.d"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/track_handle__type_support.cpp.o"
+  "CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/track_handle__type_support.cpp.o.d"
+  "libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/msg/detail/dds_fastrtps/detected_obstacle__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/msg/detail/detected_obstacle__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/detect_handle__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/event_handle__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/navigate_handle__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/track_handle__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/detect_handle__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/event_handle__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/navigate_handle__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/track_handle__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

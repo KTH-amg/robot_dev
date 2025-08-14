@@ -1,0 +1,42 @@
+[0.023s] Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller -- -j12 -l12
+[0.221s] [ 33%] Built target gtest
+[0.221s] [ 33%] Built target gtest_main
+[0.221s] [ 50%] Built target vector_pursuit_controller
+[0.221s] [ 75%] Built target test_path_utils
+[0.221s] [100%] Built target test_vp
+[0.222s] Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller -- -j12 -l12
+[0.230s] Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller
+[0.236s] -- Install configuration: "Release"
+[0.236s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/lib/libvector_pursuit_controller.so
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/include/
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/include//vector_pursuit_controller
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/include//vector_pursuit_controller/vector_pursuit_controller.hpp
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/config
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/config/bcr_map.yaml
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/config/sample_nav2_params.yaml
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/config/bcr_map.pgm
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/launch
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/launch/bcr_bot_demo.launch.py
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/environment/library_path.sh
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/environment/library_path.dsv
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/vector_pursuit_controller.xml
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/vector_pursuit_controller
+[0.237s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/vector_pursuit_controller
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/environment/ament_prefix_path.sh
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/environment/ament_prefix_path.dsv
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/environment/path.sh
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/environment/path.dsv
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/local_setup.bash
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/local_setup.sh
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/local_setup.zsh
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/local_setup.dsv
+[0.238s] -- Installing: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.dsv
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/ament_index/resource_index/packages/vector_pursuit_controller
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/vector_pursuit_controller
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.238s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/cmake/vector_pursuit_controllerConfig.cmake
+[0.239s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/cmake/vector_pursuit_controllerConfig-version.cmake
+[0.239s] -- Up-to-date: /home/kth/robot_dev/vicpinky_2/install/vector_pursuit_controller/share/vector_pursuit_controller/package.xml
+[0.239s] Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kth/robot_dev/vicpinky_2/install/vicpinky_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/vicpinky_2/build/vector_pursuit_controller

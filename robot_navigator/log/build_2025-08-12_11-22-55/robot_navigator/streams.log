@@ -1,0 +1,63 @@
+[0.008s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/robot_navigator/src/robot_navigator -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/robot_navigator/install/robot_navigator
+[0.019s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.174s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.196s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.274s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.380s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.405s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.427s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.448s] -- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[0.542s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[0.545s] -- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.608s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.611s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.612s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.614s] -- Found control_interfaces: 0.0.0 (/home/kth/robot_dev/robot_navigator/install/control_interfaces/share/control_interfaces/cmake)
+[0.635s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.715s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.715s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kth/robot_dev/robot_navigator/src/robot_navigator/include>
+[0.715s] -- Configured cppcheck exclude dirs and/or files: 
+[0.716s] -- Added test 'lint_cmake' to check CMake code style
+[0.717s] -- Added test 'uncrustify' to check C / C++ code style
+[0.717s] -- Configured uncrustify additional arguments: 
+[0.718s] -- Added test 'xmllint' to check XML markup files
+[0.719s] -- Configuring done (0.7s)
+[0.735s] -- Generating done (0.0s)
+[0.740s] -- Build files have been written to: /home/kth/robot_dev/robot_navigator/build/robot_navigator
+[0.747s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kth/robot_dev/robot_navigator/src/robot_navigator -DCMAKE_INSTALL_PREFIX=/home/kth/robot_dev/robot_navigator/install/robot_navigator
+[0.748s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/robot_navigator -- -j12 -l12
+[0.786s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/main.cpp.o[0m
+[0.786s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o[0m
+[0.786s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[10.458s] [ 80%] [32m[1mLinking CXX executable obstacle_detector[0m
+[10.819s] [ 80%] Built target obstacle_detector
+[20.003s] [100%] [32m[1mLinking CXX executable robot_navigator[0m
+[20.785s] [100%] Built target robot_navigator
+[20.795s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/robot_navigator/build/robot_navigator -- -j12 -l12
+[20.802s] Invoking command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/robot_navigator/build/robot_navigator
+[20.808s] -- Install configuration: ""
+[20.808s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/robot_navigator
+[20.817s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/robot_navigator" to ""
+[20.817s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/obstacle_detector
+[20.821s] -- Set non-toolchain portion of runtime path of "/home/kth/robot_dev/robot_navigator/install/robot_navigator/lib/robot_navigator/obstacle_detector" to ""
+[20.821s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/package_run_dependencies/robot_navigator
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/parent_prefix_path/robot_navigator
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.sh
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/ament_prefix_path.dsv
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.sh
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/environment/path.dsv
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.bash
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.sh
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.zsh
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/local_setup.dsv
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.dsv
+[20.822s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/ament_index/resource_index/packages/robot_navigator
+[20.823s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig.cmake
+[20.823s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/cmake/robot_navigatorConfig-version.cmake
+[20.823s] -- Installing: /home/kth/robot_dev/robot_navigator/install/robot_navigator/share/robot_navigator/package.xml
+[20.824s] Invoked command in '/home/kth/robot_dev/robot_navigator/build/robot_navigator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kth/robot_dev/robot_navigator/build/robot_navigator

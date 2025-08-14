@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from control_interfaces/srv/EventHandle.srv
+// generated code does not contain a copyright notice
+
+
+module control_interfaces {
+  module srv {
+    struct EventHandle_Request {
+      string event_type;
+    };
+    struct EventHandle_Response {
+      string status;
+    };
+  };
+};

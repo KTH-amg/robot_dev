@@ -1,0 +1,109 @@
+[0.218s] Invoking command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation -- -j12 -l12
+[0.248s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.430s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.462s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.567s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.629s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.697s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.739s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.769s] -- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[0.912s] -- Found nav2_core: 1.3.7 (/opt/ros/jazzy/share/nav2_core/cmake)
+[1.036s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.038s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.234s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.308s] -- Found slam_toolbox: 2.8.3 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+[1.382s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.384s] -- Found OGRE
+[1.384s] --   static     : OFF
+[1.384s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.384s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.384s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.385s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.385s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.385s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.385s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.385s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.385s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.385s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.385s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.492s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.563s] -- Configured cppcheck include dirs: 
+[1.563s] -- Configured cppcheck exclude dirs and/or files: 
+[1.564s] -- Added test 'lint_cmake' to check CMake code style
+[1.565s] -- Added test 'uncrustify' to check C / C++ code style
+[1.565s] -- Configured uncrustify additional arguments: 
+[1.565s] -- Added test 'xmllint' to check XML markup files
+[1.568s] -- Configuring done (1.3s)
+[1.674s] -- Generating done (0.1s)
+[1.678s] -- Build files have been written to: /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation
+[1.717s] [ 50%] [32mBuilding CXX object CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o[0m
+[4.350s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.350s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[4.350s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.350s]                  from [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:13[m[K:
+[4.350s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path graph_planner::GraphPlanner::[01;32m[KcreatePlan[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, std::function<bool()>)[m[K’:
+[4.350s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.351s]   133 |         [01;35m[K"✅ 경로 생성 완료: %d개 노드, %d개 차단된 엣지"[m[K,
+[4.351s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.351s]   134 |         [32m[Knodes_seq.size()[m[K, blocked_edges.size());
+[4.351s]       |         [32m[K~~~~~~~~~~~~~~~~[m[K
+[4.351s]       |                       [32m[K|[m[K
+[4.351s]       |                       [32m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[4.351s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.351s]   133 |         "✅ 경로 생성 완료: [01;36m[K%d[m[K개 노드, %d개 차단된 엣지",
+[4.351s]       |                             [01;36m[K~^[m[K
+[4.351s]       |                              [01;36m[K|[m[K
+[4.351s]       |                              [01;36m[Kint[m[K
+[4.351s]       |                             [32m[K%ld[m[K
+[4.351s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::set<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.351s]   133 |         [01;35m[K"✅ 경로 생성 완료: %d개 노드, %d개 차단된 엣지"[m[K,
+[4.351s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.351s]   134 |         nodes_seq.size(), [32m[Kblocked_edges.size()[m[K);
+[4.351s]       |                           [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[4.351s]       |                                             [32m[K|[m[K
+[4.351s]       |                                             [32m[Kstd::set<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[4.351s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:133:41:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.351s]   133 |         "✅ 경로 생성 완료: %d개 노드, [01;36m[K%d[m[K개 차단된 엣지",
+[4.352s]       |                                        [01;36m[K~^[m[K
+[4.352s]       |                                         [01;36m[K|[m[K
+[4.352s]       |                                         [01;36m[Kint[m[K
+[4.352s]       |                                        [32m[K%ld[m[K
+[4.358s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvoid graph_planner::GraphPlanner::[01;32m[KscanCallback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.359s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:175:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[4.359s]   175 |             transform = [01;31m[Ktf_buffer_[m[K->lookupTransform("map", "base_link", tf2::TimePointZero);
+[4.359s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[4.363s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvoid graph_planner::GraphPlanner::[01;32m[KupdateObstacles[m[K()[m[K’:
+[4.363s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:232:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.363s]   232 |       RCLCPP_INFO(node_->get_logger(), [01;35m[K"🔄 %d개 장애물 타임아웃으로 제거됨"[m[K, [32m[Kto_remove.size()[m[K);
+[4.363s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[4.363s]       |                                                                                            [32m[K|[m[K
+[4.363s]       |                                                                                            [32m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[4.363s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:232:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.363s]   232 |       RCLCPP_INFO(node_->get_logger(), "🔄 [01;36m[K%d[m[K개 장애물 타임아웃으로 제거됨", to_remove.size());
+[4.363s]       |                                            [01;36m[K~^[m[K
+[4.363s]       |                                             [01;36m[K|[m[K
+[4.363s]       |                                             [01;36m[Kint[m[K
+[4.363s]       |                                            [32m[K%ld[m[K
+[4.385s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kbool graph_planner::GraphPlanner::[01;32m[KplanWithLidarObstacles[m[K(const std::string&, const std::string&, const std::set<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >&, std::function<bool()>, std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’:
+[4.385s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:374:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.385s]   374 |       [01;35m[K"다익스트라 완료: 시작=%s, 목표=%s, 총 비용=%.2f, 노드 수=%d"[m[K,
+[4.385s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.385s]   375 |       start_node.c_str(), goal_node.c_str(), dist[goal_node], [32m[Kseq.size()[m[K);
+[4.385s]       |                                                               [32m[K~~~~~~~~~~[m[K
+[4.385s]       |                                                                       [32m[K|[m[K
+[4.385s]       |                                                                       [32m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[4.385s] [01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:374:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.385s]   374 |       "다익스트라 완료: 시작=%s, 목표=%s, 총 비용=%.2f, 노드 수=[01;36m[K%d[m[K",
+[4.385s]       |                                                                 [01;36m[K~^[m[K
+[4.386s]       |                                                                  [01;36m[K|[m[K
+[4.386s]       |                                                                  [01;36m[Kint[m[K
+[4.386s]       |                                                                 [32m[K%ld[m[K
+[6.463s] gmake[2]: *** [CMakeFiles/graph_planner.dir/build.make:76: CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o] Error 1
+[6.464s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_planner.dir/all] Error 2
+[6.464s] gmake: *** [Makefile:146: all] Error 2
+[6.466s] Invoked command in '/home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kth/robot_dev/vicpinky_2/build/vicpinky_navigation -- -j12 -l12

@@ -1,0 +1,60 @@
+{
+  "package_name": "control_interfaces",
+  "output_dir": "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_generator_c/control_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:msg/DetectedObstacle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/EventHandle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/NavigateHandle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/TrackHandle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces:srv/DetectHandle.idl"
+  ],
+  "ros_interface_files": [
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces/msg/DetectedObstacle.msg",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces/srv/EventHandle.srv",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces/srv/NavigateHandle.srv",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces/srv/TrackHandle.srv",
+    "/home/kth/robot_dev/robot_navigator/src/control_interfaces/srv/DetectHandle.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces/msg/DetectedObstacle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces/srv/EventHandle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces/srv/NavigateHandle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces/srv/TrackHandle.idl",
+    "/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_adapter/control_interfaces/srv/DetectHandle.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/DetectedObstacle.idl:/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_generator_type_description/control_interfaces/msg/DetectedObstacle.json",
+    "srv/EventHandle.idl:/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_generator_type_description/control_interfaces/srv/EventHandle.json",
+    "srv/NavigateHandle.idl:/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_generator_type_description/control_interfaces/srv/NavigateHandle.json",
+    "srv/TrackHandle.idl:/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_generator_type_description/control_interfaces/srv/TrackHandle.json",
+    "srv/DetectHandle.idl:/home/kth/robot_dev/robot_navigator/build/control_interfaces/rosidl_generator_type_description/control_interfaces/srv/DetectHandle.json"
+  ]
+}

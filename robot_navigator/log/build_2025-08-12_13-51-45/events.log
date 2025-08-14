@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (-) JobUnselected: {'identifier': 'control_interfaces'}
+[0.000315] (robot_navigator) JobQueued: {'identifier': 'robot_navigator', 'dependencies': OrderedDict()}
+[0.000339] (robot_navigator) JobStarted: {'identifier': 'robot_navigator'}
+[0.007030] (robot_navigator) JobProgress: {'identifier': 'robot_navigator', 'progress': 'cmake'}
+[0.007439] (robot_navigator) JobProgress: {'identifier': 'robot_navigator', 'progress': 'build'}
+[0.007930] (robot_navigator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kth/robot_dev/robot_navigator/build/robot_navigator', '--', '-j12', '-l12'], 'cwd': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2733-11-kth-GP75-Leopard-10SEK_TIME14708978', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'kth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'POWERLINE_COMMAND': 'oh-my-posh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kth', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2257', 'SYSTEMD_EXEC_PID': '2733', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '24415', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kth/robot_dev/robot_navigator/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kth', 'JOURNAL_STREAM': '9:24881', 'POSH_SESSION_ID': '0aa8716e-c3b1-4fac-a563-7e1ee40dfd76', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '3.7.0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kth-GP75-Leopard-10SEK:@/tmp/.ICE-unix/2701,unix/kth-GP75-Leopard-10SEK:/tmp/.ICE-unix/2701', 'INVOCATION_ID': '921896e3d3cf41f68858fc660c5041cd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kth/robot_dev/robot_navigator/install/robot_navigator:/home/kth/robot_dev/robot_navigator/install/control_interfaces:/opt/ros/jazzy', 'ROS_DOMAIN_ID': '22', 'TERMINATOR_UUID': 'urn:uuid:335c3e2c-7d03-40fe-9d25-bbd6b94e9a07', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'POSH_THEME': '/home/kth/.poshthemes/sonicboom_light.omp.json', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kth/robot_dev/robot_navigator/build/robot_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/kth/robot_dev/robot_navigator/install/control_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'POSH_SHELL': 'fish', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/kth/robot_dev/robot_navigator/install/robot_navigator:/home/kth/robot_dev/robot_navigator/install/control_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.053471] (robot_navigator) StdoutLine: {'line': b'[ 40%] Built target obstacle_detector\n'}
+[0.060236] (robot_navigator) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o\x1b[0m\n'}
+[0.060492] (robot_navigator) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/robot_navigator.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099724] (-) TimerEvent: {}
+[0.199978] (-) TimerEvent: {}
+[0.300177] (-) TimerEvent: {}
+[0.400441] (-) TimerEvent: {}
+[0.500719] (-) TimerEvent: {}
+[0.600931] (-) TimerEvent: {}
+[0.701183] (-) TimerEvent: {}
+[0.801431] (-) TimerEvent: {}
+[0.901690] (-) TimerEvent: {}
+[1.001939] (-) TimerEvent: {}
+[1.102195] (-) TimerEvent: {}
+[1.202450] (-) TimerEvent: {}
+[1.302783] (-) TimerEvent: {}
+[1.403040] (-) TimerEvent: {}
+[1.503280] (-) TimerEvent: {}
+[1.603582] (-) TimerEvent: {}
+[1.703841] (-) TimerEvent: {}
+[1.804050] (-) TimerEvent: {}
+[1.904298] (-) TimerEvent: {}
+[2.004562] (-) TimerEvent: {}
+[2.104826] (-) TimerEvent: {}
+[2.205077] (-) TimerEvent: {}
+[2.279771] (robot_navigator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[2.280098] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:72:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.280167] (robot_navigator) StderrLine: {'line': b'   72 |     \x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Path current_global_path_;\n'}
+[2.280219] (robot_navigator) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.302678] (robot_navigator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:1\x1b[m\x1b[K:\n'}
+[2.302829] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:72:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.302900] (robot_navigator) StderrLine: {'line': b'   72 |     \x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Path current_global_path_;\n'}
+[2.302952] (robot_navigator) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.305141] (-) TimerEvent: {}
+[2.363156] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knav2_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.363306] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<\x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Path>::SharedPtr global_path_sub_;\n'}
+[2.363366] (robot_navigator) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.363416] (robot_navigator) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Knav2_msgs\x1b[m\x1b[K\n'}
+[2.363466] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.363516] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<nav_msgs::msg::Path\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr global_path_sub_;\n'}
+[2.363611] (robot_navigator) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.363659] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.363707] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[2.363755] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[2.363804] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.363853] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K global_path_sub_;\n'}
+[2.363901] (robot_navigator) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.363948] (robot_navigator) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.365970] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kglobal_path_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.366073] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::SharedPtr \x1b[01;31m\x1b[Kglobal_path_sub_\x1b[m\x1b[K;\n'}
+[2.366129] (robot_navigator) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.392605] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knav2_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.392862] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<\x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Path>::SharedPtr global_path_sub_;\n'}
+[2.393064] (robot_navigator) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.393122] (robot_navigator) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Knav2_msgs\x1b[m\x1b[K\n'}
+[2.393174] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.393226] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<nav_msgs::msg::Path\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr global_path_sub_;\n'}
+[2.393275] (robot_navigator) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.393324] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.393419] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[2.393472] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[2.393548] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.393624] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K global_path_sub_;\n'}
+[2.393673] (robot_navigator) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.393723] (robot_navigator) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.396211] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/include/robot_navigator/robot_navigator.hpp:82:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kglobal_path_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.396333] (robot_navigator) StderrLine: {'line': b'   82 |     rclcpp::Subscription<nav_msgs::msg::Path>::SharedPtr \x1b[01;31m\x1b[Kglobal_path_sub_\x1b[m\x1b[K;\n'}
+[2.396391] (robot_navigator) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.405238] (-) TimerEvent: {}
+[2.496119] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotNavigator::\x1b[01;32m\x1b[KinitializeRobotSubscribers\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.496264] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:103:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kglobal_path_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.496343] (robot_navigator) StderrLine: {'line': b'  103 |     \x1b[01;31m\x1b[Kglobal_path_sub_\x1b[m\x1b[K = this->create_subscription<nav_msgs::msg::Path>(\n'}
+[2.496398] (robot_navigator) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.503326] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:103:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knav2_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.503502] (robot_navigator) StderrLine: {'line': b'  103 |     global_path_sub_ = this->create_subscription<\x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Path>(\n'}
+[2.503652] (robot_navigator) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.503744] (robot_navigator) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[Knav2_msgs\x1b[m\x1b[K\n'}
+[2.503830] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:103:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.503921] (robot_navigator) StderrLine: {'line': b'  103 |     global_path_sub_ = this->\x1b[01;31m\x1b[Kcreate_subscription<nav_msgs::msg::Path>\x1b[m\x1b[K(\n'}
+[2.504016] (robot_navigator) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.504108] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:105:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KglobalPathCallback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KRobotNavigator\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.504202] (robot_navigator) StderrLine: {'line': b'  105 |         std::bind(&RobotNavigator::\x1b[01;31m\x1b[KglobalPathCallback\x1b[m\x1b[K, this, _1));\n'}
+[2.504294] (robot_navigator) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505307] (-) TimerEvent: {}
+[2.605549] (-) TimerEvent: {}
+[2.606685] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.606903] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.607022] (robot_navigator) StderrLine: {'line': b'  858 | void globalPathCallback(const \x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Path::SharedPtr msg)\n'}
+[2.607085] (robot_navigator) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.607139] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.607218] (robot_navigator) StderrLine: {'line': b'  858 | void globalPathCallback(const nav_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KPath::SharedPtr msg)\n'}
+[2.607287] (robot_navigator) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.607338] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.607398] (robot_navigator) StderrLine: {'line': b'  858 | void globalPathCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst nav_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KPath::SharedPtr msg)\n'}
+[2.607474] (robot_navigator) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[2.607601] (robot_navigator) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.607678] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:858:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.607753] (robot_navigator) StderrLine: {'line': b'  858 | void globalPathCallback(const nav_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KPath::SharedPtr msg)\n'}
+[2.607804] (robot_navigator) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.614749] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped\x1b[01;32m\x1b[K getNextWaypointFromPath\x1b[m\x1b[K(const geometry_msgs::msg::Point&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.614899] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:867:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_global_path_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.614962] (robot_navigator) StderrLine: {'line': b'  867 |     if (\x1b[01;31m\x1b[Kcurrent_global_path_\x1b[m\x1b[K.poses.empty()) {\n'}
+[2.615015] (robot_navigator) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.623208] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:875:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_global_path_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.623364] (robot_navigator) StderrLine: {'line': b'  875 |     for (size_t i = 0; i < \x1b[01;31m\x1b[Kcurrent_global_path_\x1b[m\x1b[K.poses.size(); ++i) {\n'}
+[2.623440] (robot_navigator) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.630874] (robot_navigator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kth/robot_dev/robot_navigator/src/robot_navigator/src/robot_navigator.cpp:887:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_global_path_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.631026] (robot_navigator) StderrLine: {'line': b'  887 |     size_t next_idx = std::min(closest_idx + 1, \x1b[01;31m\x1b[Kcurrent_global_path_\x1b[m\x1b[K.poses.size() - 1);\n'}
+[2.631091] (robot_navigator) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705651] (-) TimerEvent: {}
+[2.805935] (-) TimerEvent: {}
+[2.906218] (-) TimerEvent: {}
+[3.006450] (-) TimerEvent: {}
+[3.106721] (-) TimerEvent: {}
+[3.206989] (-) TimerEvent: {}
+[3.307305] (-) TimerEvent: {}
+[3.407570] (-) TimerEvent: {}
+[3.427772] (robot_navigator) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:90: CMakeFiles/robot_navigator.dir/src/main.cpp.o] Error 1\n'}
+[3.427911] (robot_navigator) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.507690] (-) TimerEvent: {}
+[3.607882] (-) TimerEvent: {}
+[3.708093] (-) TimerEvent: {}
+[3.808354] (-) TimerEvent: {}
+[3.908627] (-) TimerEvent: {}
+[4.008825] (-) TimerEvent: {}
+[4.109073] (-) TimerEvent: {}
+[4.209382] (-) TimerEvent: {}
+[4.309636] (-) TimerEvent: {}
+[4.409905] (-) TimerEvent: {}
+[4.510158] (-) TimerEvent: {}
+[4.610424] (-) TimerEvent: {}
+[4.710685] (-) TimerEvent: {}
+[4.810955] (-) TimerEvent: {}
+[4.911199] (-) TimerEvent: {}
+[5.011464] (-) TimerEvent: {}
+[5.111730] (-) TimerEvent: {}
+[5.211942] (-) TimerEvent: {}
+[5.312159] (-) TimerEvent: {}
+[5.412399] (-) TimerEvent: {}
+[5.512595] (-) TimerEvent: {}
+[5.612806] (-) TimerEvent: {}
+[5.713018] (-) TimerEvent: {}
+[5.813268] (-) TimerEvent: {}
+[5.913545] (-) TimerEvent: {}
+[6.013771] (-) TimerEvent: {}
+[6.113974] (-) TimerEvent: {}
+[6.214235] (-) TimerEvent: {}
+[6.314480] (-) TimerEvent: {}
+[6.414736] (-) TimerEvent: {}
+[6.514990] (-) TimerEvent: {}
+[6.615235] (-) TimerEvent: {}
+[6.715480] (-) TimerEvent: {}
+[6.815783] (-) TimerEvent: {}
+[6.916025] (-) TimerEvent: {}
+[7.016238] (-) TimerEvent: {}
+[7.116487] (-) TimerEvent: {}
+[7.216735] (-) TimerEvent: {}
+[7.316991] (-) TimerEvent: {}
+[7.417232] (-) TimerEvent: {}
+[7.517474] (-) TimerEvent: {}
+[7.617764] (-) TimerEvent: {}
+[7.718036] (-) TimerEvent: {}
+[7.818295] (-) TimerEvent: {}
+[7.918569] (-) TimerEvent: {}
+[8.018831] (-) TimerEvent: {}
+[8.119043] (-) TimerEvent: {}
+[8.216328] (robot_navigator) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_navigator.dir/build.make:76: CMakeFiles/robot_navigator.dir/src/robot_navigator.cpp.o] Error 1\n'}
+[8.216810] (robot_navigator) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_navigator.dir/all] Error 2\n'}
+[8.217095] (robot_navigator) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.218998] (robot_navigator) CommandEnded: {'returncode': 2}
+[8.219261] (-) TimerEvent: {}
+[8.227417] (robot_navigator) JobEnded: {'identifier': 'robot_navigator', 'rc': 2}
+[8.238118] (-) EventReactorShutdown: {}

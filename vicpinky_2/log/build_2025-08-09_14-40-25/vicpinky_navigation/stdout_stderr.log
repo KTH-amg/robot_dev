@@ -1,0 +1,34 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o[0m
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:544:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kvectorstd[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Kvector[m[K’?
+  544 |     const std::[01;31m[Kvectorstd[m[K::string & path_nodes)
+      |                [01;31m[K^~~~~~~~~[m[K
+      |                [32m[Kvector[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:544:34:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  544 |     const std::vectorstd::string [01;31m[K&[m[K path_nodes)
+      |                                  [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:544:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  544 |     const std::vectorstd::string[01;31m[K [m[K[32m[K&[m[K path_nodes)
+      |                                 [01;31m[K^[m[K[32m[K~[m[K
+      |                                 [32m[K)[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:542:84:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  542 |  std::set<std::pair<std::string, std::string>> buildBlockedEdgesOnUpcomingSegments[01;36m[K([m[K
+      |                                                                                   [01;36m[K^[m[K
+
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:544:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  544 |     const std::vectorstd::string [01;31m[K&[m[K path_nodes)
+      |                                  [01;31m[K^[m[K
+      |                                   [32m[K;[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:544:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_nodes[m[K’ does not name a type
+  544 |     const std::vectorstd::string & [01;31m[Kpath_nodes[m[K)
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path graph_planner::GraphPlanner::[01;32m[KcreatePlan[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, std::function<bool()>)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:123:67:[m[K [01;31m[Kerror: [m[K‘[01m[KgetObstacleBlockedEdges[m[K’ was not declared in this scope
+  123 |     std::set<std::pair<std::string, std::string>> blocked_edges = [01;31m[KgetObstacleBlockedEdges[m[K();
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvoid graph_planner::GraphPlanner::[01;32m[KupdateObstacles[m[K()[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:264:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::lock_guardstd[m[K’ has not been declared
+  264 |     std::[01;31m[Klock_guardstd[m[K::mutex lock(obstacle_mutex_);
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/graph_planner.dir/build.make:76: CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

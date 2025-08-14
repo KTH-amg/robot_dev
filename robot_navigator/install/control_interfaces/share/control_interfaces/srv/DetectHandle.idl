@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from control_interfaces/srv/DetectHandle.srv
+// generated code does not contain a copyright notice
+
+
+module control_interfaces {
+  module srv {
+    struct DetectHandle_Request {
+      float left_angle;
+
+      float right_angle;
+    };
+    struct DetectHandle_Response {
+      string flag;
+    };
+  };
+};

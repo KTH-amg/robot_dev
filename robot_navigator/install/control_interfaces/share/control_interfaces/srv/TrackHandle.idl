@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from control_interfaces/srv/TrackHandle.srv
+// generated code does not contain a copyright notice
+
+
+module control_interfaces {
+  module srv {
+    struct TrackHandle_Request {
+      string event_type;
+
+      float left_angle;
+
+      float right_angle;
+    };
+    struct TrackHandle_Response {
+      string status;
+
+      float distance;
+    };
+  };
+};

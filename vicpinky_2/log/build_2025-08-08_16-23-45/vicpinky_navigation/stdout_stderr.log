@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o[0m
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kvectorstd[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Kvector[m[K’?
+  239 |     checkPathSegmentsCollision(const std::[01;31m[Kvectorstd[m[K::string & nodes_seq)
+      |                                           [01;31m[K^~~~~~~~~[m[K
+      |                                           [32m[Kvector[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:61:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  239 |     checkPathSegmentsCollision(const std::vectorstd::string [01;31m[K&[m[K nodes_seq)
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  239 |     checkPathSegmentsCollision[34m[K([m[Kconst std::vectorstd::string[01;31m[K [m[K[32m[K&[m[K nodes_seq)
+      |                               [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+      |                                                            [32m[K)[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  239 |     checkPathSegmentsCollision(const std::vectorstd::string [01;31m[K&[m[K nodes_seq)
+      |                                                             [01;31m[K^[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:239:63:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_seq[m[K’ does not name a type
+  239 |     checkPathSegmentsCollision(const std::vectorstd::string & [01;31m[Knodes_seq[m[K)
+      |                                                               [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/graph_planner.dir/build.make:76: CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

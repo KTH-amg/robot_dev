@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o[0m
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path graph_planner::GraphPlanner::[01;32m[KcreatePlan[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, std::function<bool()>)[m[K’:
+[01m[K/home/kth/robot_dev/vicpinky_2/src/vic_pinky/vicpinky_navigation/src/graph_planner.cpp:123:67:[m[K [01;31m[Kerror: [m[K‘[01m[KgetObstacleBlockedEdges[m[K’ was not declared in this scope
+  123 |     std::set<std::pair<std::string, std::string>> blocked_edges = [01;31m[KgetObstacleBlockedEdges[m[K();
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/graph_planner.dir/build.make:76: CMakeFiles/graph_planner.dir/src/graph_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/graph_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

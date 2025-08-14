@@ -210,6 +210,19 @@ robot_navigator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_navigator.dir/build.make CMakeFiles/robot_navigator.dir/build
 .PHONY : robot_navigator/fast
 
+#=============================================================================
+# Target rules for targets named obstacle_detector
+
+# Build rule for target.
+obstacle_detector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_detector
+.PHONY : obstacle_detector
+
+# fast build rule for target.
+obstacle_detector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_detector.dir/build.make CMakeFiles/obstacle_detector.dir/build
+.PHONY : obstacle_detector/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -233,6 +246,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_navigator.dir/build.make CMakeFiles/robot_navigator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/obstacle_detector.o: src/obstacle_detector.cpp.o
+.PHONY : src/obstacle_detector.o
+
+# target to build an object file
+src/obstacle_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_detector.dir/build.make CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o
+.PHONY : src/obstacle_detector.cpp.o
+
+src/obstacle_detector.i: src/obstacle_detector.cpp.i
+.PHONY : src/obstacle_detector.i
+
+# target to preprocess a source file
+src/obstacle_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_detector.dir/build.make CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.i
+.PHONY : src/obstacle_detector.cpp.i
+
+src/obstacle_detector.s: src/obstacle_detector.cpp.s
+.PHONY : src/obstacle_detector.s
+
+# target to generate assembly for a file
+src/obstacle_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_detector.dir/build.make CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.s
+.PHONY : src/obstacle_detector.cpp.s
 
 src/robot_navigator.o: src/robot_navigator.cpp.o
 .PHONY : src/robot_navigator.o
@@ -273,10 +310,14 @@ help:
 	@echo "... test"
 	@echo "... robot_navigator_uninstall"
 	@echo "... uninstall"
+	@echo "... obstacle_detector"
 	@echo "... robot_navigator"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/obstacle_detector.o"
+	@echo "... src/obstacle_detector.i"
+	@echo "... src/obstacle_detector.s"
 	@echo "... src/robot_navigator.o"
 	@echo "... src/robot_navigator.i"
 	@echo "... src/robot_navigator.s"
